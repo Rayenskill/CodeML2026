@@ -1,0 +1,20 @@
+{
+  "historical_training_sha256": "a3ce4e56b691daa163e3a455a88e76f85e3a1c8e201293fd3a87516b163c1f6d",
+  "training_rows": 10000,
+  "config": {
+    "family": "sparse_spline",
+    "knots": 5,
+    "curve_hours": true,
+    "C": 3.0
+  },
+  "reference_labels_used": false,
+  "preview_results_read": false,
+  "policy_parameters_selected_on_historical_target": false,
+  "limitation": "Policy hypotheses require platform scoring; historical labels are a different target.",
+  "source_sha256": {
+    "work/codex_model/model.py": "fab00bd1c9797e366c43db097ec9c0b3ae3c5391c2e744cc89472cff84ac3077",
+    "work/codex_model/income_policy.py": "06c769189b4e8835fc5adb9e7d5be18ce362dfdfccf57b1093d2a2c132877115"
+  },
+  "previously_scored_files_preserved": 19,
+  "best_model_preserved": true
+}

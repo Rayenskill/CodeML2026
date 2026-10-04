@@ -1,0 +1,76 @@
+{
+  "models_checked": [
+    {
+      "model": "smooth",
+      "sha256": "7c4aec01e21d641b6336599387473ec506aa93990386e9fc056571e0de0c4ba9",
+      "rows": 4000,
+      "grants": 1600,
+      "reproduced_byte_for_byte": true,
+      "ignores_identifiers_and_supplied_labels": true,
+      "scores_single_new_applicant": true
+    },
+    {
+      "model": "flexible",
+      "sha256": "abf5fcae1533e2adb3792fe26cdc955d2d6392c5c9315ff5d856631f14cdc2fa",
+      "rows": 4000,
+      "grants": 1600,
+      "reproduced_byte_for_byte": true,
+      "ignores_identifiers_and_supplied_labels": true,
+      "scores_single_new_applicant": true
+    },
+    {
+      "model": "uniform",
+      "sha256": "7b42b9766b15f5bb2267b4d4810457d4f5c24629026be2b62093ced627814b27",
+      "rows": 4000,
+      "grants": 1600,
+      "reproduced_byte_for_byte": true,
+      "ignores_identifiers_and_supplied_labels": true,
+      "scores_single_new_applicant": true
+    },
+    {
+      "model": "spline_blend",
+      "sha256": "f43ced2e7aa80ec7750833410a7e98ea6f1e789c87d4ab483caefcb03029f63c",
+      "rows": 4000,
+      "grants": 1600,
+      "reproduced_byte_for_byte": true,
+      "ignores_identifiers_and_supplied_labels": true,
+      "scores_single_new_applicant": true
+    },
+    {
+      "model": "training_threshold",
+      "sha256": "79da9746faf9caab8bb3540ff8795bd8ff609e977cbcacd30ed9a67b50000b41",
+      "rows": 4000,
+      "grants": 1634,
+      "reproduced_byte_for_byte": true,
+      "ignores_identifiers_and_supplied_labels": true,
+      "scores_single_new_applicant": true
+    },
+    {
+      "model": "regularized",
+      "sha256": "25c2cf042b30c9370cdcfb6871665afa9a1cc14f9df6ef0a1e79e6d1c0f7a713",
+      "rows": 4000,
+      "grants": 1600,
+      "reproduced_byte_for_byte": true,
+      "ignores_identifiers_and_supplied_labels": true,
+      "scores_single_new_applicant": true
+    },
+    {
+      "model": "less_regularized",
+      "sha256": "156c03f40cf0997ccd47f5925a7fbd8ad8e150b23e7df477d7b28476fb0a26c4",
+      "rows": 4000,
+      "grants": 1600,
+      "reproduced_byte_for_byte": true,
+      "ignores_identifiers_and_supplied_labels": true,
+      "scores_single_new_applicant": true
+    }
+  ],
+  "previously_scored_files_unchanged": true,
+  "default_prediction_reproduces_verified_best": true,
+  "best_observed_accuracy_percent": 94.88,
+  "new_models_reference_accuracy_verified": false,
+  "source_sha256": {
+    "model.py": "ac8bafe6bc764de7d0688203e494fb4c316fdb5b5ef96542859929ab92395b12",
+    "tune_spline.py": "e35a5b49d55361547c1c3e3eeaf4ef0c50bd0231b84ef408a4e8fb73cae9f0a5",
+    "verify_spline.py": "334f9c9140d22221a08070290de5a8e9fc45efd68870eef495e53bb291b33612"
+  }
+}

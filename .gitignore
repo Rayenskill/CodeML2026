@@ -1,0 +1,24 @@
+# JADCO: publish the verified deliverables; keep CRM extracts and research local.
+jadco-participants/*
+!jadco-participants/README.md
+!jadco-participants/work/
+jadco-participants/work/*
+!jadco-participants/work/final/
+!jadco-participants/work/presentation/
+!jadco-participants/work/submission/
+# Confidential challenge data: never commit.
+corroborai-participants/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+*.failed.ipynb
+*.pending.ipynb
+*.pending.pdf
+
+# Generated, regenerable artefacts from the strategy work (extracted corpora, degraded images, datasets)
+_local/

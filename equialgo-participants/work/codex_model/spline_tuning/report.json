@@ -1,0 +1,764 @@
+{
+  "training_file": "data/donnees_demandes.csv",
+  "training_sha256": "a3ce4e56b691daa163e3a455a88e76f85e3a1c8e201293fd3a87516b163c1f6d",
+  "training_rows": 10000,
+  "development_rows": 8000,
+  "preview_scores_used_in_fitting": false,
+  "reference_accuracy": null,
+  "search": [
+    {
+      "number": 9,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 5,
+        "curve_hours": true,
+        "C": 3.0
+      },
+      "development_cv": {
+        "accuracy": 0.8885,
+        "accuracy_wilson_95_interval": [
+          0.8814155301753746,
+          0.895211547207525
+        ],
+        "macro_f1": 0.8832917102114848,
+        "roc_auc": 0.9579392228035806,
+        "log_loss": 0.2566330633020466,
+        "brier": 0.07976151324216306
+      }
+    },
+    {
+      "number": 8,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 5,
+        "curve_hours": true,
+        "C": 1.0
+      },
+      "development_cv": {
+        "accuracy": 0.888375,
+        "accuracy_wilson_95_interval": [
+          0.8812872142630014,
+          0.8950899831078704
+        ],
+        "macro_f1": 0.8831802273181305,
+        "roc_auc": 0.95794260998992,
+        "log_loss": 0.25664239758783186,
+        "brier": 0.07977468560989531
+      }
+    },
+    {
+      "number": 10,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 5,
+        "curve_hours": true,
+        "C": 10.0
+      },
+      "development_cv": {
+        "accuracy": 0.888875,
+        "accuracy_wilson_95_interval": [
+          0.8818004943695866,
+          0.8955762230493968
+        ],
+        "macro_f1": 0.8836520210594423,
+        "roc_auc": 0.9579230033920717,
+        "log_loss": 0.25667954588300285,
+        "brier": 0.07976339628143769
+      }
+    },
+    {
+      "number": 11,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 5,
+        "curve_hours": true,
+        "C": 30.0
+      },
+      "development_cv": {
+        "accuracy": 0.88875,
+        "accuracy_wilson_95_interval": [
+          0.8816721702246312,
+          0.8954546671823244
+        ],
+        "macro_f1": 0.8835146839557053,
+        "roc_auc": 0.9579167501249839,
+        "log_loss": 0.256697404744891,
+        "brier": 0.07976282313547901
+      }
+    },
+    {
+      "number": 1,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 3,
+        "curve_hours": true,
+        "C": 3.0
+      },
+      "development_cv": {
+        "accuracy": 0.888125,
+        "accuracy_wilson_95_interval": [
+          0.8810305906426693,
+          0.8948468467041465
+        ],
+        "macro_f1": 0.8829701247409345,
+        "roc_auc": 0.9579134932150425,
+        "log_loss": 0.2567456843034336,
+        "brier": 0.07977702281676656
+      }
+    },
+    {
+      "number": 0,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 3,
+        "curve_hours": true,
+        "C": 1.0
+      },
+      "development_cv": {
+        "accuracy": 0.888625,
+        "accuracy_wilson_95_interval": [
+          0.8815438488279077,
+          0.89533310856702
+        ],
+        "macro_f1": 0.8834931632895784,
+        "roc_auc": 0.9579165547103875,
+        "log_loss": 0.25674859678664874,
+        "brier": 0.07978820397155177
+      }
+    },
+    {
+      "number": 2,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 3,
+        "curve_hours": true,
+        "C": 10.0
+      },
+      "development_cv": {
+        "accuracy": 0.888375,
+        "accuracy_wilson_95_interval": [
+          0.8812872142630014,
+          0.8950899831078704
+        ],
+        "macro_f1": 0.8832188169925579,
+        "roc_auc": 0.9579060023221768,
+        "log_loss": 0.256771705753313,
+        "brier": 0.07977102285294176
+      }
+    },
+    {
+      "number": 3,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 3,
+        "curve_hours": true,
+        "C": 30.0
+      },
+      "development_cv": {
+        "accuracy": 0.8885,
+        "accuracy_wilson_95_interval": [
+          0.8814155301753746,
+          0.895211547207525
+        ],
+        "macro_f1": 0.883343177887464,
+        "roc_auc": 0.9579025499976388,
+        "log_loss": 0.25679049296169104,
+        "brier": 0.07976759102582005
+      }
+    },
+    {
+      "number": 27,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 5,
+        "curve_hours": true,
+        "C": 10.0,
+        "knot_spacing": "uniform"
+      },
+      "development_cv": {
+        "accuracy": 0.88875,
+        "accuracy_wilson_95_interval": [
+          0.8816721702246312,
+          0.8954546671823244
+        ],
+        "macro_f1": 0.8835919292845822,
+        "roc_auc": 0.9578671799556733,
+        "log_loss": 0.25688918926075766,
+        "brier": 0.07977729961567033
+      }
+    },
+    {
+      "number": 26,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 5,
+        "curve_hours": true,
+        "C": 1.0,
+        "knot_spacing": "uniform"
+      },
+      "development_cv": {
+        "accuracy": 0.88825,
+        "accuracy_wilson_95_interval": [
+          0.881158901086769,
+          0.8949684162720747
+        ],
+        "macro_f1": 0.8830816155060457,
+        "roc_auc": 0.9578579303314394,
+        "log_loss": 0.2569129402499773,
+        "brier": 0.07979687714646873
+      }
+    },
+    {
+      "number": 24,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 4,
+        "curve_hours": true,
+        "C": 1.0,
+        "knot_spacing": "uniform"
+      },
+      "development_cv": {
+        "accuracy": 0.88825,
+        "accuracy_wilson_95_interval": [
+          0.881158901086769,
+          0.8949684162720747
+        ],
+        "macro_f1": 0.8831711887083256,
+        "roc_auc": 0.9578354576528427,
+        "log_loss": 0.2569172991873568,
+        "brier": 0.07981213896557779
+      }
+    },
+    {
+      "number": 4,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 4,
+        "curve_hours": true,
+        "C": 1.0
+      },
+      "development_cv": {
+        "accuracy": 0.889,
+        "accuracy_wilson_95_interval": [
+          0.8819288212668267,
+          0.8956977761641848
+        ],
+        "macro_f1": 0.8839045412935074,
+        "roc_auc": 0.9578296603531467,
+        "log_loss": 0.25692075723948915,
+        "brier": 0.07982695013490364
+      }
+    },
+    {
+      "number": 5,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 4,
+        "curve_hours": true,
+        "C": 3.0
+      },
+      "development_cv": {
+        "accuracy": 0.88875,
+        "accuracy_wilson_95_interval": [
+          0.8816721702246312,
+          0.8954546671823244
+        ],
+        "macro_f1": 0.8836303081332151,
+        "roc_auc": 0.957831875051907,
+        "log_loss": 0.2569357630769213,
+        "brier": 0.07982512816224112
+      }
+    },
+    {
+      "number": 25,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 4,
+        "curve_hours": true,
+        "C": 10.0,
+        "knot_spacing": "uniform"
+      },
+      "development_cv": {
+        "accuracy": 0.88825,
+        "accuracy_wilson_95_interval": [
+          0.881158901086769,
+          0.8949684162720747
+        ],
+        "macro_f1": 0.8831584467523047,
+        "roc_auc": 0.9578328521248896,
+        "log_loss": 0.2569517174095823,
+        "brier": 0.07981274956888476
+      }
+    },
+    {
+      "number": 6,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 4,
+        "curve_hours": true,
+        "C": 10.0
+      },
+      "development_cv": {
+        "accuracy": 0.88875,
+        "accuracy_wilson_95_interval": [
+          0.8816721702246312,
+          0.8954546671823244
+        ],
+        "macro_f1": 0.8836303081332151,
+        "roc_auc": 0.9578251658174274,
+        "log_loss": 0.2569573955817183,
+        "brier": 0.07982789316993115
+      }
+    },
+    {
+      "number": 7,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 4,
+        "curve_hours": true,
+        "C": 30.0
+      },
+      "development_cv": {
+        "accuracy": 0.888875,
+        "accuracy_wilson_95_interval": [
+          0.8818004943695866,
+          0.8955762230493968
+        ],
+        "macro_f1": 0.8837674341290094,
+        "roc_auc": 0.9578262731668076,
+        "log_loss": 0.2569614264554879,
+        "brier": 0.07982790873027892
+      }
+    },
+    {
+      "number": 13,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 6,
+        "curve_hours": true,
+        "C": 3.0
+      },
+      "development_cv": {
+        "accuracy": 0.889,
+        "accuracy_wilson_95_interval": [
+          0.8819288212668267,
+          0.8956977761641848
+        ],
+        "macro_f1": 0.8837506136475208,
+        "roc_auc": 0.957837672351603,
+        "log_loss": 0.2569899188346745,
+        "brier": 0.07986141668815844
+      }
+    },
+    {
+      "number": 16,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 7,
+        "curve_hours": true,
+        "C": 1.0
+      },
+      "development_cv": {
+        "accuracy": 0.88875,
+        "accuracy_wilson_95_interval": [
+          0.8816721702246312,
+          0.8954546671823244
+        ],
+        "macro_f1": 0.8835017463939046,
+        "roc_auc": 0.9578460100410533,
+        "log_loss": 0.2569979034374336,
+        "brier": 0.07987131139457952
+      }
+    },
+    {
+      "number": 14,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 6,
+        "curve_hours": true,
+        "C": 10.0
+      },
+      "development_cv": {
+        "accuracy": 0.888875,
+        "accuracy_wilson_95_interval": [
+          0.8818004943695866,
+          0.8955762230493968
+        ],
+        "macro_f1": 0.8836261750062372,
+        "roc_auc": 0.9578325264338953,
+        "log_loss": 0.25700467558707496,
+        "brier": 0.07985706097219147
+      }
+    },
+    {
+      "number": 28,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 7,
+        "curve_hours": true,
+        "C": 1.0,
+        "knot_spacing": "uniform"
+      },
+      "development_cv": {
+        "accuracy": 0.8885,
+        "accuracy_wilson_95_interval": [
+          0.8814155301753746,
+          0.895211547207525
+        ],
+        "macro_f1": 0.8832658676791127,
+        "roc_auc": 0.9577958536279534,
+        "log_loss": 0.2570084881021542,
+        "brier": 0.07986800683000081
+      }
+    },
+    {
+      "number": 12,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 6,
+        "curve_hours": true,
+        "C": 1.0
+      },
+      "development_cv": {
+        "accuracy": 0.889125,
+        "accuracy_wilson_95_interval": [
+          0.8820571509204155,
+          0.8958193265226241
+        ],
+        "macro_f1": 0.8838879833864256,
+        "roc_auc": 0.957832656710293,
+        "log_loss": 0.2570131491425156,
+        "brier": 0.07987340682209226
+      }
+    },
+    {
+      "number": 29,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 7,
+        "curve_hours": true,
+        "C": 10.0,
+        "knot_spacing": "uniform"
+      },
+      "development_cv": {
+        "accuracy": 0.889,
+        "accuracy_wilson_95_interval": [
+          0.8819288212668267,
+          0.8956977761641848
+        ],
+        "macro_f1": 0.883776448710861,
+        "roc_auc": 0.9578039959028073,
+        "log_loss": 0.25702117533256946,
+        "brier": 0.07985725014272757
+      }
+    },
+    {
+      "number": 15,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 6,
+        "curve_hours": true,
+        "C": 30.0
+      },
+      "development_cv": {
+        "accuracy": 0.888875,
+        "accuracy_wilson_95_interval": [
+          0.8818004943695866,
+          0.8955762230493968
+        ],
+        "macro_f1": 0.8836261750062372,
+        "roc_auc": 0.9578325264338954,
+        "log_loss": 0.257022749086045,
+        "brier": 0.07985111537867536
+      }
+    },
+    {
+      "number": 17,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 7,
+        "curve_hours": true,
+        "C": 3.0
+      },
+      "development_cv": {
+        "accuracy": 0.888875,
+        "accuracy_wilson_95_interval": [
+          0.8818004943695866,
+          0.8955762230493968
+        ],
+        "macro_f1": 0.8836261750062372,
+        "roc_auc": 0.9578366301404218,
+        "log_loss": 0.25704502847071387,
+        "brier": 0.07987992864230947
+      }
+    },
+    {
+      "number": 19,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 7,
+        "curve_hours": true,
+        "C": 30.0
+      },
+      "development_cv": {
+        "accuracy": 0.888875,
+        "accuracy_wilson_95_interval": [
+          0.8818004943695866,
+          0.8955762230493968
+        ],
+        "macro_f1": 0.8836261750062372,
+        "roc_auc": 0.9578319401901058,
+        "log_loss": 0.25706480203425824,
+        "brier": 0.07988246685918317
+      }
+    },
+    {
+      "number": 18,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 7,
+        "curve_hours": true,
+        "C": 10.0
+      },
+      "development_cv": {
+        "accuracy": 0.888875,
+        "accuracy_wilson_95_interval": [
+          0.8818004943695866,
+          0.8955762230493968
+        ],
+        "macro_f1": 0.8836261750062372,
+        "roc_auc": 0.9578244492972403,
+        "log_loss": 0.2570955759220457,
+        "brier": 0.07988624809236597
+      }
+    },
+    {
+      "number": 20,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 9,
+        "curve_hours": true,
+        "C": 1.0
+      },
+      "development_cv": {
+        "accuracy": 0.88875,
+        "accuracy_wilson_95_interval": [
+          0.8816721702246312,
+          0.8954546671823244
+        ],
+        "macro_f1": 0.8834498147670525,
+        "roc_auc": 0.9577398347769587,
+        "log_loss": 0.2572984238840635,
+        "brier": 0.07996675570402723
+      }
+    },
+    {
+      "number": 21,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 9,
+        "curve_hours": true,
+        "C": 3.0
+      },
+      "development_cv": {
+        "accuracy": 0.888625,
+        "accuracy_wilson_95_interval": [
+          0.8815438488279077,
+          0.89533310856702
+        ],
+        "macro_f1": 0.8833123403044334,
+        "roc_auc": 0.9577378154927949,
+        "log_loss": 0.25730293449820635,
+        "brier": 0.07995586991551214
+      }
+    },
+    {
+      "number": 22,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 9,
+        "curve_hours": true,
+        "C": 10.0
+      },
+      "development_cv": {
+        "accuracy": 0.88875,
+        "accuracy_wilson_95_interval": [
+          0.8816721702246312,
+          0.8954546671823244
+        ],
+        "macro_f1": 0.8834498147670525,
+        "roc_auc": 0.9577298686325376,
+        "log_loss": 0.25733185190559305,
+        "brier": 0.07995741902527749
+      }
+    },
+    {
+      "number": 23,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 9,
+        "curve_hours": true,
+        "C": 30.0
+      },
+      "development_cv": {
+        "accuracy": 0.88875,
+        "accuracy_wilson_95_interval": [
+          0.8816721702246312,
+          0.8954546671823244
+        ],
+        "macro_f1": 0.8834498147670525,
+        "roc_auc": 0.9577258952024088,
+        "log_loss": 0.25733736180351346,
+        "brier": 0.07995708500106743
+      }
+    }
+  ],
+  "selected": {
+    "smooth": {
+      "number": 1,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 3,
+        "curve_hours": true,
+        "C": 3.0
+      },
+      "development_cv": {
+        "accuracy": 0.888125,
+        "accuracy_wilson_95_interval": [
+          0.8810305906426693,
+          0.8948468467041465
+        ],
+        "macro_f1": 0.8829701247409345,
+        "roc_auc": 0.9579134932150425,
+        "log_loss": 0.2567456843034336,
+        "brier": 0.07977702281676656
+      }
+    },
+    "flexible": {
+      "number": 13,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 6,
+        "curve_hours": true,
+        "C": 3.0
+      },
+      "development_cv": {
+        "accuracy": 0.889,
+        "accuracy_wilson_95_interval": [
+          0.8819288212668267,
+          0.8956977761641848
+        ],
+        "macro_f1": 0.8837506136475208,
+        "roc_auc": 0.957837672351603,
+        "log_loss": 0.2569899188346745,
+        "brier": 0.07986141668815844
+      }
+    },
+    "uniform": {
+      "number": 27,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 5,
+        "curve_hours": true,
+        "C": 10.0,
+        "knot_spacing": "uniform"
+      },
+      "development_cv": {
+        "accuracy": 0.88875,
+        "accuracy_wilson_95_interval": [
+          0.8816721702246312,
+          0.8954546671823244
+        ],
+        "macro_f1": 0.8835919292845822,
+        "roc_auc": 0.9578671799556733,
+        "log_loss": 0.25688918926075766,
+        "brier": 0.07977729961567033
+      }
+    },
+    "regularized": {
+      "number": 8,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 5,
+        "curve_hours": true,
+        "C": 1.0
+      },
+      "development_cv": {
+        "accuracy": 0.888375,
+        "accuracy_wilson_95_interval": [
+          0.8812872142630014,
+          0.8950899831078704
+        ],
+        "macro_f1": 0.8831802273181305,
+        "roc_auc": 0.95794260998992,
+        "log_loss": 0.25664239758783186,
+        "brier": 0.07977468560989531
+      }
+    },
+    "less_regularized": {
+      "number": 10,
+      "config": {
+        "family": "sparse_spline",
+        "knots": 5,
+        "curve_hours": true,
+        "C": 10.0
+      },
+      "development_cv": {
+        "accuracy": 0.888875,
+        "accuracy_wilson_95_interval": [
+          0.8818004943695866,
+          0.8955762230493968
+        ],
+        "macro_f1": 0.8836520210594423,
+        "roc_auc": 0.9579230033920717,
+        "log_loss": 0.25667954588300285,
+        "brier": 0.07976339628143769
+      }
+    }
+  },
+  "blend": {
+    "configs": [
+      {
+        "family": "sparse_spline",
+        "knots": 3,
+        "curve_hours": true,
+        "C": 3.0
+      },
+      {
+        "family": "sparse_spline",
+        "knots": 6,
+        "curve_hours": true,
+        "C": 3.0
+      },
+      {
+        "family": "sparse_spline",
+        "knots": 5,
+        "curve_hours": true,
+        "C": 10.0,
+        "knot_spacing": "uniform"
+      }
+    ],
+    "weights": [
+      0.7657839317460955,
+      0.1972015298181421,
+      0.037014538435762426
+    ],
+    "development_cv": {
+      "accuracy": 0.8885,
+      "accuracy_wilson_95_interval": [
+        0.8814155301753746,
+        0.895211547207525
+      ],
+      "macro_f1": 0.883343177887464,
+      "roc_auc": 0.9578879590411006,
+      "log_loss": 0.2568160142478523,
+      "brier": 0.07979623604802037
+    }
+  },
+  "family_choice_context": "User reported sparse spline 94.88%; this determines the family to investigate, not fitted coefficients.",
+  "training_threshold": {
+    "training_quantile": 0.6,
+    "threshold": 0.5001422520884322
+  },
+  "historical_holdout_used_for_selection": false
+}

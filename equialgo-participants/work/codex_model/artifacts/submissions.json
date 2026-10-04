@@ -1,0 +1,42 @@
+[
+  {
+    "file": "/home/francklin99/Desktop/Coding/codeml/equialgo-participants/upload_model/predictions.csv",
+    "rows": 4000,
+    "grants": 1600,
+    "grant_rate": 0.4,
+    "sha256": "f51dfc1cd1e16bba9ff2cf192b0adc2b71bd35e1b342da18948e71e1681ce8c2",
+    "fixed_training_threshold_grant_rate": 0.405
+  },
+  {
+    "file": "/home/francklin99/Desktop/Coding/codeml/equialgo-participants/upload_model/linear.csv",
+    "rows": 4000,
+    "grants": 1600,
+    "grant_rate": 0.4,
+    "sha256": "0120f838852cf652c01bcee39ee0ef453d2591a4b5394d033a506b4d48de18c6",
+    "fixed_training_threshold_grant_rate": 0.4035
+  },
+  {
+    "file": "/home/francklin99/Desktop/Coding/codeml/equialgo-participants/upload_model/spline.csv",
+    "rows": 4000,
+    "grants": 1600,
+    "grant_rate": 0.4,
+    "sha256": "a7515e1fd18df8d9efca8f92f7b76ae902ffcaa4623022557ee5f3428cab6030",
+    "fixed_training_threshold_grant_rate": 0.40875
+  },
+  {
+    "file": "/home/francklin99/Desktop/Coding/codeml/equialgo-participants/upload_model/boosted.csv",
+    "rows": 4000,
+    "grants": 1600,
+    "grant_rate": 0.4,
+    "sha256": "d1c8be00857f9b2ded27911ebd8435fe6ed2e6f8fd6d4c7ebb000c421987de4c",
+    "fixed_training_threshold_grant_rate": 0.4075
+  },
+  {
+    "file": "/home/francklin99/Desktop/Coding/codeml/equialgo-participants/upload_model/ensemble.csv",
+    "rows": 4000,
+    "grants": 1600,
+    "grant_rate": 0.4,
+    "sha256": "f51dfc1cd1e16bba9ff2cf192b0adc2b71bd35e1b342da18948e71e1681ce8c2",
+    "fixed_training_threshold_grant_rate": 0.405
+  }
+]

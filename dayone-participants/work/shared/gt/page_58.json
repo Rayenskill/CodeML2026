@@ -1,0 +1,1034 @@
+{
+ "page": 58,
+ "patient": 8,
+ "page_type": 2,
+ "page_type_name": "identification_antecedents",
+ "font": "NanumPen-Regular",
+ "png": [
+  "dossiers_specimen_10_patientes-58.png"
+ ],
+ "fields": [
+  {
+   "key": "accouchements_anterieurs.compl_nouveau_ne_type.accouch_1",
+   "type": "text",
+   "value": "RAS",
+   "status": "CONNU",
+   "bbox": [
+    420.5,
+    1852.3,
+    456.3,
+    1881.1
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "accouchements_anterieurs.compl_nouveau_ne_type.accouch_2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "accouchements_anterieurs.compl_nouveau_ne_type.accouch_3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "accouchements_anterieurs.compl_nouveau_ne_type.accouch_4",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "accouchements_anterieurs.compl_nouveau_ne_type.accouch_5",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "accouchements_anterieurs.complication_type.accouch_1",
+   "type": "text",
+   "value": "RAS",
+   "status": "CONNU",
+   "bbox": [
+    422.3,
+    1698.7,
+    457.3,
+    1725.8
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "accouchements_anterieurs.complication_type.accouch_2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "accouchements_anterieurs.complication_type.accouch_3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "accouchements_anterieurs.complication_type.accouch_4",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "accouchements_anterieurs.complication_type.accouch_5",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "accouchements_anterieurs.date.accouch_1",
+   "type": "text",
+   "value": "03/08/2022",
+   "status": "CONNU",
+   "bbox": [
+    423.2,
+    1463.7,
+    515.0,
+    1493.6
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "accouchements_anterieurs.date.accouch_2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "accouchements_anterieurs.date.accouch_3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "accouchements_anterieurs.date.accouch_4",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "accouchements_anterieurs.date.accouch_5",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "accouchements_anterieurs.modalite_d_extraction.accouch_1",
+   "type": "text",
+   "value": "Césarienne",
+   "status": "CONNU",
+   "bbox": [
+    422.7,
+    1542.2,
+    531.4,
+    1571.9
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "accouchements_anterieurs.modalite_d_extraction.accouch_2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "accouchements_anterieurs.modalite_d_extraction.accouch_3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "accouchements_anterieurs.modalite_d_extraction.accouch_4",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "accouchements_anterieurs.modalite_d_extraction.accouch_5",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "accouchements_anterieurs.poids_nouveau_ne_s.accouch_1",
+   "type": "text",
+   "value": "3175 g",
+   "status": "CONNU",
+   "bbox": [
+    421.9,
+    1775.5,
+    471.3,
+    1805.4
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "accouchements_anterieurs.poids_nouveau_ne_s.accouch_2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "accouchements_anterieurs.poids_nouveau_ne_s.accouch_3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "accouchements_anterieurs.poids_nouveau_ne_s.accouch_4",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "accouchements_anterieurs.poids_nouveau_ne_s.accouch_5",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "accouchements_anterieurs.si_cesarienne_indication.accouch_1",
+   "type": "text",
+   "value": "SFA",
+   "status": "CONNU",
+   "bbox": [
+    422.3,
+    1620.0,
+    455.5,
+    1649.3
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "accouchements_anterieurs.si_cesarienne_indication.accouch_2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "accouchements_anterieurs.si_cesarienne_indication.accouch_3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "accouchements_anterieurs.si_cesarienne_indication.accouch_4",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "accouchements_anterieurs.si_cesarienne_indication.accouch_5",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "atcd_familiaux.allergie_s.famille_de_la_femme",
+   "type": "text",
+   "value": "RAS",
+   "status": "CONNU",
+   "bbox": [
+    376.0,
+    885.3,
+    413.3,
+    914.7
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "atcd_familiaux.allergie_s.mari_famille",
+   "type": "text",
+   "value": "RAS",
+   "status": "CONNU",
+   "bbox": [
+    597.3,
+    886.1,
+    634.7,
+    917.0
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "atcd_familiaux.diabete.famille_de_la_femme",
+   "type": "text",
+   "value": "RAS",
+   "status": "CONNU",
+   "bbox": [
+    377.0,
+    717.7,
+    413.3,
+    748.1
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "atcd_familiaux.diabete.mari_famille",
+   "type": "text",
+   "value": "RAS",
+   "status": "CONNU",
+   "bbox": [
+    598.2,
+    719.0,
+    635.5,
+    750.5
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "atcd_familiaux.hta.famille_de_la_femme",
+   "type": "text",
+   "value": "RAS",
+   "status": "CONNU",
+   "bbox": [
+    376.7,
+    662.9,
+    413.2,
+    693.4
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "atcd_familiaux.hta.mari_famille",
+   "type": "text",
+   "value": "RAS",
+   "status": "CONNU",
+   "bbox": [
+    599.3,
+    664.5,
+    636.1,
+    694.9
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "atcd_familiaux.maladies_hereditaires.famille_de_la_femme",
+   "type": "text",
+   "value": "Oncle",
+   "status": "CONNU",
+   "bbox": [
+    376.6,
+    775.1,
+    426.2,
+    804.8
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "atcd_familiaux.maladies_hereditaires.mari_famille",
+   "type": "text",
+   "value": "RAS",
+   "status": "CONNU",
+   "bbox": [
+    598.9,
+    774.3,
+    635.5,
+    804.3
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "atcd_familiaux.malformations.famille_de_la_femme",
+   "type": "text",
+   "value": "RAS",
+   "status": "CONNU",
+   "bbox": [
+    376.1,
+    829.0,
+    413.2,
+    860.4
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "atcd_familiaux.malformations.mari_famille",
+   "type": "text",
+   "value": "RAS",
+   "status": "CONNU",
+   "bbox": [
+    598.2,
+    830.8,
+    635.2,
+    861.2
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "atcd_femme.contenu.chirurgicaux",
+   "type": "text",
+   "value": "Aucun",
+   "status": "CONNU",
+   "bbox": [
+    1055.0,
+    667.2,
+    1109.3,
+    695.3
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "atcd_femme.contenu.gynecologiques",
+   "type": "text",
+   "value": "Cycles réguliers",
+   "status": "CONNU",
+   "bbox": [
+    1277.0,
+    668.3,
+    1430.2,
+    698.6
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "atcd_femme.contenu.medicaux",
+   "type": "text",
+   "value": "RAS",
+   "status": "CONNU",
+   "bbox": [
+    874.1,
+    667.8,
+    908.6,
+    695.3
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "atcd_obstetricaux.accouchement_premature.age_gestationnel_sa",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "atcd_obstetricaux.accouchement_premature.date",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "atcd_obstetricaux.accouchement_premature.lieu",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "atcd_obstetricaux.accouchement_premature.nombre",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "atcd_obstetricaux.autres_a_preciser.age_gestationnel_sa",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "atcd_obstetricaux.autres_a_preciser.date",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "atcd_obstetricaux.autres_a_preciser.lieu",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "atcd_obstetricaux.autres_a_preciser.nombre",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "atcd_obstetricaux.avortement.age_gestationnel_sa",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "atcd_obstetricaux.avortement.date",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "atcd_obstetricaux.avortement.lieu",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "atcd_obstetricaux.avortement.nombre",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "atcd_obstetricaux.mort_foetale_in_utero.age_gestationnel_sa",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "atcd_obstetricaux.mort_foetale_in_utero.date",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "atcd_obstetricaux.mort_foetale_in_utero.lieu",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "atcd_obstetricaux.mort_foetale_in_utero.nombre",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "cb.1",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    204.0,
+    2055.4,
+    226.3,
+    2077.7
+   ],
+   "label": "1",
+   "group": "VAT :"
+  },
+  {
+   "key": "cb.2",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    315.1,
+    2055.9,
+    337.4,
+    2078.2
+   ],
+   "label": "2",
+   "group": "VAT :"
+  },
+  {
+   "key": "cb.3",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    426.2,
+    2056.4,
+    448.5,
+    2078.8
+   ],
+   "label": "3",
+   "group": "VAT :"
+  },
+  {
+   "key": "cb.4",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    537.3,
+    2057.0,
+    559.7,
+    2079.3
+   ],
+   "label": "4",
+   "group": "VAT :"
+  },
+  {
+   "key": "cb.5",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    648.4,
+    2057.5,
+    670.8,
+    2079.8
+   ],
+   "label": "5",
+   "group": "VAT :"
+  },
+  {
+   "key": "cb.consanguinite",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    136.5,
+    482.8,
+    158.8,
+    505.1
+   ],
+   "label": "Consanguinité",
+   "group": "Profession :"
+  },
+  {
+   "key": "cb.grossesse_desiree",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    836.5,
+    486.1,
+    858.8,
+    508.5
+   ],
+   "label": "Grossesse désirée",
+   "group": "Profession :"
+  },
+  {
+   "key": "cb.vaccinee_contre_l_hepatite_b",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    106.3,
+    2154.9,
+    128.6,
+    2177.2
+   ],
+   "label": "Vaccinée contre l'hépatite B",
+   "group": "VAT :"
+  },
+  {
+   "key": "cb.vaccinee_contre_la_rubeole",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    106.5,
+    2110.5,
+    128.8,
+    2132.8
+   ],
+   "label": "Vaccinée contre la rubéole",
+   "group": "VAT :"
+  },
+  {
+   "key": "inline.adresse",
+   "type": "text",
+   "value": null,
+   "status": "CONNU",
+   "bbox": [
+    252.8,
+    343.1,
+    503.4,
+    377.9
+   ],
+   "label_bbox": [
+    137.1,
+    345.0,
+    237.3,
+    376.0
+   ],
+   "raw": null,
+   "identifier": true
+  },
+  {
+   "key": "inline.age",
+   "type": "text",
+   "value": "28",
+   "status": "CONNU",
+   "bbox": [
+    212.3,
+    220.3,
+    234.2,
+    254.1
+   ],
+   "label_bbox": [
+    137.7,
+    222.8,
+    195.9,
+    253.6
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.cin",
+   "type": "text",
+   "value": null,
+   "status": "CONNU",
+   "bbox": [
+    911.2,
+    224.9,
+    992.5,
+    258.7
+   ],
+   "label_bbox": [
+    837.7,
+    226.2,
+    894.6,
+    257.0
+   ],
+   "raw": null,
+   "identifier": true
+  },
+  {
+   "key": "inline.frottis_cervical_iva_moins_de_3_ans",
+   "type": "text",
+   "value": "Normal",
+   "status": "CONNU",
+   "bbox": [
+    509.9,
+    2201.0,
+    585.5,
+    2234.8
+   ],
+   "label_bbox": [
+    106.0,
+    2200.5,
+    494.0,
+    2232.8
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.gestation",
+   "type": "text",
+   "value": "2",
+   "status": "CONNU",
+   "bbox": [
+    237.2,
+    1980.3,
+    252.3,
+    2017.1
+   ],
+   "label_bbox": [
+    107.1,
+    1986.6,
+    220.8,
+    2017.7
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.le",
+   "type": "text",
+   "value": "12/05/2022",
+   "status": "CONNU",
+   "bbox": [
+    875.1,
+    2107.0,
+    982.9,
+    2141.9
+   ],
+   "label_bbox": [
+    828.7,
+    2109.5,
+    859.7,
+    2140.1
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.le_2",
+   "type": "text",
+   "value": "03/09/2021",
+   "status": "CONNU",
+   "bbox": [
+    876.1,
+    2152.1,
+    978.2,
+    2186.0
+   ],
+   "label_bbox": [
+    828.5,
+    2153.9,
+    859.5,
+    2184.6
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.niveau_d_instruction",
+   "type": "text",
+   "value": "Aucun",
+   "status": "CONNU",
+   "bbox": [
+    364.8,
+    282.4,
+    430.6,
+    316.0
+   ],
+   "label_bbox": [
+    137.4,
+    283.9,
+    349.3,
+    315.5
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.nom_du_mari",
+   "type": "text",
+   "value": null,
+   "status": "CONNU",
+   "bbox": [
+    299.1,
+    403.4,
+    430.6,
+    439.1
+   ],
+   "label_bbox": [
+    136.8,
+    406.1,
+    282.7,
+    437.4
+   ],
+   "raw": null,
+   "identifier": true
+  },
+  {
+   "key": "inline.nombre_d_enfants_vivants",
+   "type": "text",
+   "value": "1",
+   "status": "CONNU",
+   "bbox": [
+    1058.6,
+    1983.3,
+    1066.3,
+    2021.5
+   ],
+   "label_bbox": [
+    773.7,
+    1989.8,
+    1042.4,
+    2021.6
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.parite",
+   "type": "text",
+   "value": "1",
+   "status": "CONNU",
+   "bbox": [
+    533.7,
+    1984.7,
+    540.5,
+    2020.9
+   ],
+   "label_bbox": [
+    440.4,
+    1988.2,
+    517.1,
+    2019.1
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.profession",
+   "type": "text",
+   "value": "Agricultrice",
+   "status": "CONNU",
+   "bbox": [
+    977.5,
+    286.3,
+    1102.6,
+    320.0
+   ],
+   "label_bbox": [
+    837.4,
+    287.3,
+    961.1,
+    318.4
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.profession_2",
+   "type": "text",
+   "value": "Fonctionnaire",
+   "status": "CONNU",
+   "bbox": [
+    975.7,
+    407.7,
+    1125.0,
+    442.5
+   ],
+   "label_bbox": [
+    836.8,
+    409.5,
+    960.5,
+    440.6
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.telephone",
+   "type": "text",
+   "value": null,
+   "status": "CONNU",
+   "bbox": [
+    977.2,
+    346.5,
+    1116.5,
+    381.2
+   ],
+   "label_bbox": [
+    837.1,
+    348.4,
+    960.8,
+    379.5
+   ],
+   "raw": null,
+   "identifier": true
+  }
+ ]
+}

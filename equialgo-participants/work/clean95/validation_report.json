@@ -1,0 +1,86 @@
+{
+  "config": {
+    "family": "sparse_spline",
+    "knots": 5,
+    "curve_hours": true,
+    "C": 3.0
+  },
+  "n_seeds": 30,
+  "n_profiles": 256,
+  "repeated_splits": [
+    {
+      "split": 0,
+      "fit_committee_accuracy": 0.902,
+      "fit_committee_auc": 0.9608116203540363,
+      "merit_top40_vs_committee_accuracy": 0.8565,
+      "merit_grant_rate_remote": 0.41676942046855736,
+      "merit_grant_rate_centre": 0.3885618166526493,
+      "committee_grant_rate_remote": 0.3094944512946979,
+      "committee_grant_rate_centre": 0.4760302775441548
+    },
+    {
+      "split": 1,
+      "fit_committee_accuracy": 0.889,
+      "fit_committee_auc": 0.9544082693167244,
+      "merit_top40_vs_committee_accuracy": 0.854,
+      "merit_grant_rate_remote": 0.3843329253365973,
+      "merit_grant_rate_centre": 0.41081994928148774,
+      "committee_grant_rate_remote": 0.2766217870257038,
+      "committee_grant_rate_centre": 0.4801352493660186
+    },
+    {
+      "split": 2,
+      "fit_committee_accuracy": 0.889,
+      "fit_committee_auc": 0.9624471076810689,
+      "merit_top40_vs_committee_accuracy": 0.8425,
+      "merit_grant_rate_remote": 0.40898058252427183,
+      "merit_grant_rate_centre": 0.3937074829931973,
+      "committee_grant_rate_remote": 0.2657766990291262,
+      "committee_grant_rate_centre": 0.4846938775510204
+    },
+    {
+      "split": 3,
+      "fit_committee_accuracy": 0.8875,
+      "fit_committee_auc": 0.9550414121240601,
+      "merit_top40_vs_committee_accuracy": 0.845,
+      "merit_grant_rate_remote": 0.39646464646464646,
+      "merit_grant_rate_centre": 0.402317880794702,
+      "committee_grant_rate_remote": 0.26136363636363635,
+      "committee_grant_rate_centre": 0.4776490066225166
+    },
+    {
+      "split": 4,
+      "fit_committee_accuracy": 0.8955,
+      "fit_committee_auc": 0.9624672926603073,
+      "merit_top40_vs_committee_accuracy": 0.857,
+      "merit_grant_rate_remote": 0.39054726368159204,
+      "merit_grant_rate_centre": 0.40635451505016723,
+      "committee_grant_rate_remote": 0.2798507462686567,
+      "committee_grant_rate_centre": 0.49414715719063546
+    }
+  ],
+  "fit_committee_accuracy_mean_sd": [
+    0.8926000000000001,
+    0.0060971304726075955
+  ],
+  "fit_committee_auc_mean_sd": [
+    0.9590351404272394,
+    0.003997964246194666
+  ],
+  "merit_top40_vs_committee_accuracy_mean_sd": [
+    0.851,
+    0.006773108592072033
+  ],
+  "stability": {
+    "single_seed_vs_ensemble_flips_mean": 21.066666666666666,
+    "single_seed_vs_ensemble_flips_max": 54,
+    "unanimous_applicants_share": 0.97,
+    "applicants_with_split_vote": 120
+  },
+  "eval_grant_rate": {
+    "remote": 0.4004914004914005,
+    "centre": 0.3996627318718381,
+    "overall": 0.4
+  },
+  "differs_from_verified_single_spline": 4
+}

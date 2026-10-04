@@ -1,0 +1,332 @@
+{
+ "page": 65,
+ "patient": 9,
+ "page_type": 1,
+ "page_type_name": "couverture",
+ "font": "Gaegu-Regular",
+ "png": [
+  "dossiers_specimen_10_patientes-65.png"
+ ],
+ "fields": [
+  {
+   "key": "cb.anemie",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    180.9,
+    1356.8,
+    203.2,
+    1379.1
+   ],
+   "label": "Anémie",
+   "group": "Si grossesse à risque, préciser le type de risque :"
+  },
+  {
+   "key": "cb.cardiopathie",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    181.2,
+    1506.8,
+    203.5,
+    1529.1
+   ],
+   "label": "Cardiopathie",
+   "group": "Si grossesse à risque, préciser le type de risque :"
+  },
+  {
+   "key": "cb.csc",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    637.9,
+    661.4,
+    660.1,
+    683.7
+   ],
+   "label": "CSC",
+   "group": "Type de l'établissement sanitaire :"
+  },
+  {
+   "key": "cb.csca",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    249.1,
+    745.6,
+    271.4,
+    767.8
+   ],
+   "label": "CSCA",
+   "group": "Type de l'établissement sanitaire :"
+  },
+  {
+   "key": "cb.csu",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    971.2,
+    660.8,
+    993.5,
+    683.0
+   ],
+   "label": "CSU",
+   "group": "Type de l'établissement sanitaire :"
+  },
+  {
+   "key": "cb.csua",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    638.0,
+    744.8,
+    660.3,
+    767.0
+   ],
+   "label": "CSUA",
+   "group": "Type de l'établissement sanitaire :"
+  },
+  {
+   "key": "cb.diabete",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    181.1,
+    1456.8,
+    203.4,
+    1479.1
+   ],
+   "label": "Diabète",
+   "group": "Si grossesse à risque, préciser le type de risque :"
+  },
+  {
+   "key": "cb.dr",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    249.0,
+    662.2,
+    271.2,
+    684.5
+   ],
+   "label": "DR",
+   "group": "Type de l'établissement sanitaire :"
+  },
+  {
+   "key": "cb.eclampsie",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    806.2,
+    1505.6,
+    828.5,
+    1527.8
+   ],
+   "label": "Eclampsie",
+   "group": "Si grossesse à risque, préciser le type de risque :"
+  },
+  {
+   "key": "cb.fixe",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    249.5,
+    898.3,
+    271.7,
+    920.6
+   ],
+   "label": "Fixe",
+   "group": "Type de l'établissement sanitaire :"
+  },
+  {
+   "key": "cb.grossesse_classee_a_risque",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    166.8,
+    1226.3,
+    189.0,
+    1248.5
+   ],
+   "label": "Grossesse classée à risque :",
+   "group": "Nom/Prénom de la parturiente :"
+  },
+  {
+   "key": "cb.h_t_a",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    181.0,
+    1406.8,
+    203.3,
+    1429.1
+   ],
+   "label": "H.T.A",
+   "group": "Si grossesse à risque, préciser le type de risque :"
+  },
+  {
+   "key": "cb.infection",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    806.0,
+    1405.6,
+    828.3,
+    1427.8
+   ],
+   "label": "Infection",
+   "group": "Si grossesse à risque, préciser le type de risque :"
+  },
+  {
+   "key": "cb.metrorragie",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    805.9,
+    1355.6,
+    828.2,
+    1377.8
+   ],
+   "label": "Métrorragie",
+   "group": "Si grossesse à risque, préciser le type de risque :"
+  },
+  {
+   "key": "cb.mobile",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    638.3,
+    897.6,
+    660.6,
+    919.8
+   ],
+   "label": "Mobile",
+   "group": "Type de l'établissement sanitaire :"
+  },
+  {
+   "key": "cb.pre_eclampsie",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    806.1,
+    1455.6,
+    828.4,
+    1477.8
+   ],
+   "label": "Pré-éclampsie",
+   "group": "Si grossesse à risque, préciser le type de risque :"
+  },
+  {
+   "key": "inline.n_de_la_fiche",
+   "type": "text",
+   "value": "2026-842-009",
+   "status": "CONNU",
+   "bbox": [
+    304.1,
+    282.2,
+    497.7,
+    314.9
+   ],
+   "label_bbox": [
+    137.1,
+    282.7,
+    288.1,
+    313.6
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.nom_de_l_etablissement_sanitaire",
+   "type": "text",
+   "value": "CSC Ksar Jdid",
+   "status": "CONNU",
+   "bbox": [
+    492.8,
+    476.8,
+    661.5,
+    509.3
+   ],
+   "label_bbox": [
+    137.5,
+    476.8,
+    476.5,
+    508.0
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.nom_prenom_de_la_parturiente",
+   "type": "text",
+   "value": null,
+   "status": "CONNU",
+   "bbox": [
+    471.2,
+    1042.7,
+    666.8,
+    1080.5
+   ],
+   "label_bbox": [
+    138.6,
+    1046.3,
+    454.9,
+    1077.5
+   ],
+   "raw": null,
+   "identifier": true
+  },
+  {
+   "key": "inline.province",
+   "type": "text",
+   "value": "Errachidia",
+   "status": "CONNU",
+   "bbox": [
+    1008.5,
+    377.8,
+    1131.4,
+    411.3
+   ],
+   "label_bbox": [
+    887.3,
+    378.6,
+    992.3,
+    409.3
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.region",
+   "type": "text",
+   "value": "Dréa-Tafilalet",
+   "status": "CONNU",
+   "bbox": [
+    242.6,
+    379.3,
+    424.2,
+    412.3
+   ],
+   "label_bbox": [
+    137.3,
+    380.1,
+    226.3,
+    410.8
+   ],
+   "raw": null
+  }
+ ]
+}

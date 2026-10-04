@@ -1,0 +1,733 @@
+{
+ "page": 69,
+ "patient": 9,
+ "page_type": 5,
+ "page_type_name": "postpartum_precoce_mere",
+ "font": "Gaegu-Regular",
+ "png": [
+  "dossiers_specimen_10_patientes-69.png"
+ ],
+ "fields": [
+  {
+   "key": "cb.anemie",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    611.3,
+    1195.7,
+    633.6,
+    1218.1
+   ],
+   "label": "Anémie",
+   "group": "Présence de complication :"
+  },
+  {
+   "key": "cb.anormal",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    831.1,
+    824.8,
+    853.5,
+    847.2
+   ],
+   "label": "Anormal",
+   "group": "Etat des sphincters (anal et urétral) :"
+  },
+  {
+   "key": "cb.apres_le_8eme_jour_de_l_accouchement",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    688.5,
+    248.0,
+    710.9,
+    270.3
+   ],
+   "label": "Après le 8ème jour de l'accouchement",
+   "group": "Date de la consultation :"
+  },
+  {
+   "key": "cb.autres",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    611.5,
+    1237.4,
+    633.9,
+    1259.7
+   ],
+   "label": "Autres",
+   "group": "Présence de complication :"
+  },
+  {
+   "key": "cb.cesarienne",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    125.9,
+    884.9,
+    148.3,
+    907.3
+   ],
+   "label": "Césarienne :",
+   "group": "Etat de la cicatrice :"
+  },
+  {
+   "key": "cb.chauds",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    554.7,
+    1037.7,
+    577.1,
+    1060.1
+   ],
+   "label": "Chauds",
+   "group": "Etat des mollets :"
+  },
+  {
+   "key": "cb.claires",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    440.6,
+    577.3,
+    463.0,
+    599.7
+   ],
+   "label": "claires",
+   "group": "Etat des lochies :"
+  },
+  {
+   "key": "cb.complications_mammaires",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    611.0,
+    1154.0,
+    633.4,
+    1176.4
+   ],
+   "label": "Complications mammaires",
+   "group": "Présence de complication :"
+  },
+  {
+   "key": "cb.dechirure",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    164.1,
+    768.0,
+    186.4,
+    790.4
+   ],
+   "label": "Déchirure",
+   "group": "Etat du périnée :"
+  },
+  {
+   "key": "cb.decolorees",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    689.7,
+    431.3,
+    712.0,
+    453.6
+   ],
+   "label": "Décolorées",
+   "group": "Etat des conjonctives :"
+  },
+  {
+   "key": "cb.desire_utiliser_une_methode",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    131.5,
+    1740.5,
+    153.8,
+    1762.8
+   ],
+   "label": "Désire utiliser une méthode",
+   "group": "Traitement prescrit :"
+  },
+  {
+   "key": "cb.diu",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    587.3,
+    1787.5,
+    609.7,
+    1809.9
+   ],
+   "label": "DIU",
+   "group": "Si oui, laquelle :"
+  },
+  {
+   "key": "cb.douloureux_a_la_dorsiflexion",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    749.1,
+    1036.5,
+    771.5,
+    1058.8
+   ],
+   "label": "Douloureux à la dorsiflexion",
+   "group": "Etat des mollets :"
+  },
+  {
+   "key": "cb.eclampsie",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    167.1,
+    1240.2,
+    189.5,
+    1262.6
+   ],
+   "label": "Eclampsie",
+   "group": "Présence de complication :"
+  },
+  {
+   "key": "cb.entre_le_7eme_et_8eme_jour_apres_l_accouchement",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    688.2,
+    209.1,
+    710.6,
+    231.4
+   ],
+   "label": "Entre le 7ème et 8ème jour après l'accouchement",
+   "group": "Date de la consultation :"
+  },
+  {
+   "key": "cb.episiotomie",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    163.8,
+    723.6,
+    186.1,
+    745.9
+   ],
+   "label": "Épisiotomie",
+   "group": "Etat du périnée :"
+  },
+  {
+   "key": "cb.fade",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    440.3,
+    532.9,
+    462.7,
+    555.3
+   ],
+   "label": "Fade",
+   "group": "Etat des lochies :"
+  },
+  {
+   "key": "cb.fer",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    168.7,
+    1484.7,
+    191.1,
+    1507.0
+   ],
+   "label": "Fer",
+   "group": "Traitement prescrit :"
+  },
+  {
+   "key": "cb.fetide",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    634.8,
+    531.6,
+    657.1,
+    554.0
+   ],
+   "label": "fétide",
+   "group": "Etat des lochies :"
+  },
+  {
+   "key": "cb.hemorragie",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    166.6,
+    1156.9,
+    188.9,
+    1179.3
+   ],
+   "label": "Hémorragie",
+   "group": "Présence de complication :"
+  },
+  {
+   "key": "cb.infection",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    166.8,
+    1198.6,
+    189.2,
+    1220.9
+   ],
+   "label": "Infection",
+   "group": "Présence de complication :"
+  },
+  {
+   "key": "cb.jaunatres",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    857.3,
+    574.6,
+    879.6,
+    597.0
+   ],
+   "label": "Jaunâtres",
+   "group": "Etat des lochies :"
+  },
+  {
+   "key": "cb.lymphangite",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    554.1,
+    937.7,
+    576.4,
+    960.1
+   ],
+   "label": "lymphangite",
+   "group": "Etat des seins :"
+  },
+  {
+   "key": "cb.mastite_et_abces",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    804.0,
+    936.1,
+    826.4,
+    958.5
+   ],
+   "label": "mastite et abcès",
+   "group": "Etat des seins :"
+  },
+  {
+   "key": "cb.normal",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    163.5,
+    679.1,
+    185.9,
+    701.5
+   ],
+   "label": "Normal",
+   "group": "Etat du périnée :"
+  },
+  {
+   "key": "cb.normal_2",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    636.7,
+    826.1,
+    659.0,
+    848.4
+   ],
+   "label": "Normal",
+   "group": "Etat des sphincters (anal et urétral) :"
+  },
+  {
+   "key": "cb.normal_3",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    359.6,
+    939.0,
+    382.0,
+    961.3
+   ],
+   "label": "Normal",
+   "group": "Etat des seins :"
+  },
+  {
+   "key": "cb.normal_4",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    165.8,
+    1040.2,
+    188.2,
+    1062.6
+   ],
+   "label": "Normal",
+   "group": "Etat des mollets :"
+  },
+  {
+   "key": "cb.normales",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    439.7,
+    432.9,
+    462.0,
+    455.3
+   ],
+   "label": "Normales",
+   "group": "Etat des conjonctives :"
+  },
+  {
+   "key": "cb.notion_de_prise_de_medicaments",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    528.9,
+    1337.9,
+    551.2,
+    1360.3
+   ],
+   "label": "Notion de prise de médicaments :",
+   "group": "Présence de complication :"
+  },
+  {
+   "key": "cb.phlebite",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    167.4,
+    1281.9,
+    189.7,
+    1304.3
+   ],
+   "label": "Phlébite",
+   "group": "Présence de complication :"
+  },
+  {
+   "key": "cb.pilule",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    392.9,
+    1788.8,
+    415.3,
+    1811.2
+   ],
+   "label": "pilule",
+   "group": "Si oui, laquelle :"
+  },
+  {
+   "key": "cb.prescription_faite",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    132.1,
+    1840.5,
+    154.5,
+    1862.8
+   ],
+   "label": "Prescription faite",
+   "group": "Si oui, laquelle :"
+  },
+  {
+   "key": "cb.presence_de_complication",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    527.4,
+    1104.6,
+    549.7,
+    1126.9
+   ],
+   "label": "Présence de complication :",
+   "group": "Etat des mollets :"
+  },
+  {
+   "key": "cb.presence_du_globe_uterin",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    123.3,
+    484.9,
+    145.7,
+    507.3
+   ],
+   "label": "Présence du globe utérin",
+   "group": "Etat des conjonctives :"
+  },
+  {
+   "key": "cb.referee",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    132.4,
+    1884.9,
+    154.8,
+    1907.3
+   ],
+   "label": "Référée :",
+   "group": "Si oui, laquelle :"
+  },
+  {
+   "key": "cb.reparee",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    552.7,
+    721.1,
+    575.0,
+    743.4
+   ],
+   "label": "Réparée",
+   "group": "Etat du périnée :"
+  },
+  {
+   "key": "cb.rouges",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    360.3,
+    1039.0,
+    382.6,
+    1061.3
+   ],
+   "label": "Rouges",
+   "group": "Etat des mollets :"
+  },
+  {
+   "key": "cb.sanglantes",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    635.1,
+    576.1,
+    657.4,
+    598.4
+   ],
+   "label": "sanglantes",
+   "group": "Etat des lochies :"
+  },
+  {
+   "key": "cb.vitamine_a",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    390.9,
+    1483.2,
+    413.3,
+    1505.6
+   ],
+   "label": "Vitamine A",
+   "group": "Traitement prescrit :"
+  },
+  {
+   "key": "inline.date_de_la_consultation",
+   "type": "text",
+   "value": "06/02/2026",
+   "status": "CONNU",
+   "bbox": [
+    1171.6,
+    195.5,
+    1323.6,
+    228.2
+   ],
+   "label_bbox": [
+    910.4,
+    196.2,
+    1155.2,
+    228.3
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.etat_de_la_cicatrice",
+   "type": "text",
+   "value": "Propre",
+   "status": "CONNU",
+   "bbox": [
+    775.4,
+    878.3,
+    846.7,
+    908.3
+   ],
+   "label_bbox": [
+    498.1,
+    877.0,
+    692.2,
+    908.8
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.notion_de_prise_de_medicaments",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": [
+    128.8,
+    1334.0,
+    460.0,
+    1366.7
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.poids",
+   "type": "text",
+   "value": "78 kg",
+   "status": "CONNU",
+   "bbox": [
+    1073.0,
+    367.6,
+    1142.3,
+    400.5
+   ],
+   "label_bbox": [
+    994.8,
+    369.1,
+    1056.8,
+    400.0
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.pouls",
+   "type": "text",
+   "value": "75",
+   "status": "CONNU",
+   "bbox": [
+    795.4,
+    371.1,
+    824.6,
+    401.8
+   ],
+   "label_bbox": [
+    717.1,
+    370.8,
+    779.0,
+    401.8
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.prochain_rendez_vous_le",
+   "type": "text",
+   "value": "13/03/2026",
+   "status": "CONNU",
+   "bbox": [
+    392.7,
+    1574.8,
+    526.2,
+    1605.5
+   ],
+   "label_bbox": [
+    130.4,
+    1573.5,
+    376.4,
+    1605.6
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.si_la_mere_ne_desire_pas_une_methode_contraceptive_pourquoi",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": [
+    132.7,
+    1926.5,
+    772.7,
+    1961.1
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.t",
+   "type": "text",
+   "value": "36.9",
+   "status": "CONNU",
+   "bbox": [
+    168.0,
+    373.7,
+    223.3,
+    407.5
+   ],
+   "label_bbox": [
+    122.6,
+    374.9,
+    151.5,
+    405.6
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.ta",
+   "type": "text",
+   "value": "120/73",
+   "status": "CONNU",
+   "bbox": [
+    462.7,
+    372.2,
+    549.3,
+    404.4
+   ],
+   "label_bbox": [
+    411.5,
+    373.0,
+    446.3,
+    403.8
+   ],
+   "raw": null
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+  "numerical_artifacts_reproduced": {
+    "final_answer.json": true,
+    "evidence.json": true,
+    "aggregates_2026.csv": true,
+    "model_2026.json": true
+  },
+  "tests_passed": 36,
+  "verified_at_utc": "2026-10-04T13:31:55.992425+00:00",
+  "method": "Fresh archive extraction; notebook execution; full pytest suite; byte-for-byte comparison of numerical artifacts",
+  "numerical_artifacts_sha256": {
+    "final_answer.json": "1410abc29db7564ff4fc8035beeacc0c8abea566b4ec88a9a4e587dab13a474a",
+    "evidence.json": "0c0d10eba341d5e33897f730c675323bb4de3856a0da74dd8b3a86d3fc0b2f15",
+    "aggregates_2026.csv": "e9c9832241a7b225b6e609bdda28a8f97d4cab1ec1431935cbe29498a539aeef",
+    "model_2026.json": "47135c46a97d441752ad47437b1b04f31407b9521c2ae442cbd8c66cdd966400"
+  },
+  "sources_sha256": {
+    "nb_part01.py": "aae90c010a14dd5ab52825dca37d35de51ffd00e799f64537db0141c703ae101",
+    "nb_part02.py": "c15ef058f40d9797a1f3d778178d2100639771f8ae70a4728e50760208acd559",
+    "nb_part03.py": "d49c250d92bd12b95d27f623d00f7616e4fb50e89d48e9d194e559d4fa62af4c",
+    "nb_part04.py": "9198e540e1718233cf6db83d4755a9053d1e016ddd9d7c4d2275a68cdc5b7073",
+    "nb_part05.py": "328e29532deefbb5eaf70aa6a1250110d1bd38372f6278bb4084ed30fd111fbe",
+    "nb_part06.py": "d74cc42c4b2f6d9f8db921f5423427b5ffd484b5eefc2d05b4bd6561e689b257",
+    "nb_part07.py": "dcccba26e36be3a46a6097e39ba26a7d1087225b13f66fd79f7d2f89a355964e",
+    "nb_part08.py": "83e844d94222138dca3e01ecf5eda91e53f93e21ded049e3fb6c2b93ec612fd6",
+    "nb_part09.py": "1e56cc08d700690720f9249b1d070fbf61921ab402f81715ef0aa2060b23a63f",
+    "nb_part10.py": "b575adfce37570599272d5e263e9f6830ef1068351895f3f4933f6688bf6a19e",
+    "nb_part11.py": "f637f7e6f66533f7f97155732167316af004ac5fb57eecd098f6abf2ceacaac4",
+    "nb_part12.py": "394c3d0195664d82b1b84a96e6935e41823f380659b2338d4040355120ec54c9"
+  }
+}

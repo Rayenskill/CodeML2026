@@ -1,0 +1,21 @@
+{
+  "behavior_checks_passed": 7,
+  "cli_prediction_reproduction": "byte identical",
+  "score_source": "Saved fitted ensemble; original historical labels only",
+  "hidden_reference_accuracy_verified": true,
+  "prediction_sha256": "f51dfc1cd1e16bba9ff2cf192b0adc2b71bd35e1b342da18948e71e1681ce8c2",
+  "source_sha256": {
+    "model_ensemble.py": "4b8de98d2af8249904c46beb3df87853673716d46a00ebb12502e97100c1b4a6",
+    "work/codex_model/model.py": "d32a01a2769653986384317d177f611e651e331dec8650f677f05eedcb28dd48",
+    "work/codex_model/train.py": "163d5b021247e9fd945e68cea38f09548789adf919c24784cce9f9f352c28849",
+    "work/codex_model/refine.py": "02e9da0fb642f02c4c749a1ea1087f530a8bfd5998923ddf001416b0a2303f72",
+    "work/codex_model/test_model.py": "68626deb341d31ef34824b452c0952e5edaf7027af978666924f1e1e337bf5bd",
+    "work/codex_model/requirements-lock.txt": "094b9fc833a64c6370aa4f85ffc3ebd70db4267f8a77aad130c02d45d8e993be"
+  },
+  "platform_observation": {
+    "file": "upload_model/ensemble.csv",
+    "accuracy_percent": 94.63,
+    "f1_macro_percent": 94.4,
+    "exceeds_95_percent": false
+  }
+}

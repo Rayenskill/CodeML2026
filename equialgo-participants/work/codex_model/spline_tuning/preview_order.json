@@ -1,0 +1,37 @@
+[
+  {
+    "model": "spline_blend",
+    "prediction": "upload_model_round3/spline_blend.csv",
+    "artifact": "work/codex_model/spline_tuning/spline_blend.joblib",
+    "sha256": "f43ced2e7aa80ec7750833410a7e98ea6f1e789c87d4ab483caefcb03029f63c",
+    "platform_accuracy": null
+  },
+  {
+    "model": "flexible",
+    "prediction": "upload_model_round3/flexible.csv",
+    "artifact": "work/codex_model/spline_tuning/flexible.joblib",
+    "sha256": "abf5fcae1533e2adb3792fe26cdc955d2d6392c5c9315ff5d856631f14cdc2fa",
+    "platform_accuracy": null
+  },
+  {
+    "model": "smooth",
+    "prediction": "upload_model_round3/smooth.csv",
+    "artifact": "work/codex_model/spline_tuning/smooth.joblib",
+    "sha256": "7c4aec01e21d641b6336599387473ec506aa93990386e9fc056571e0de0c4ba9",
+    "platform_accuracy": null
+  },
+  {
+    "model": "uniform",
+    "prediction": "upload_model_round3/uniform.csv",
+    "artifact": "work/codex_model/spline_tuning/uniform.joblib",
+    "sha256": "7b42b9766b15f5bb2267b4d4810457d4f5c24629026be2b62093ced627814b27",
+    "platform_accuracy": null
+  },
+  {
+    "model": "training_threshold",
+    "prediction": "upload_model_round3/training_threshold.csv",
+    "artifact": "work/codex_model/spline_tuning/training_threshold.joblib",
+    "sha256": "79da9746faf9caab8bb3540ff8795bd8ff609e977cbcacd30ed9a67b50000b41",
+    "platform_accuracy": null
+  }
+]

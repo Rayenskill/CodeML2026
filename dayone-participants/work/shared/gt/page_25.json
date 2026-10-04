@@ -1,0 +1,333 @@
+{
+ "page": 25,
+ "patient": 4,
+ "page_type": 1,
+ "page_type_name": "couverture",
+ "font": "Gaegu-Regular",
+ "png": [
+  "dossiers_specimen_10_patientes-25__1-CjNUosOk.png",
+  "dossiers_specimen_10_patientes-25__1y1StxYt4T.png"
+ ],
+ "fields": [
+  {
+   "key": "cb.anemie",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    180.7,
+    1356.0,
+    202.9,
+    1378.2
+   ],
+   "label": "Anémie",
+   "group": "Si grossesse à risque, préciser le type de risque :"
+  },
+  {
+   "key": "cb.cardiopathie",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    180.8,
+    1506.0,
+    203.0,
+    1528.2
+   ],
+   "label": "Cardiopathie",
+   "group": "Si grossesse à risque, préciser le type de risque :"
+  },
+  {
+   "key": "cb.csc",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    638.5,
+    661.2,
+    660.8,
+    683.5
+   ],
+   "label": "CSC",
+   "group": "Type de l'établissement sanitaire :"
+  },
+  {
+   "key": "cb.csca",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    249.7,
+    744.8,
+    271.9,
+    767.1
+   ],
+   "label": "CSCA",
+   "group": "Type de l'établissement sanitaire :"
+  },
+  {
+   "key": "cb.csu",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    971.9,
+    661.0,
+    994.1,
+    683.2
+   ],
+   "label": "CSU",
+   "group": "Type de l'établissement sanitaire :"
+  },
+  {
+   "key": "cb.csua",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    638.6,
+    744.6,
+    660.8,
+    766.8
+   ],
+   "label": "CSUA",
+   "group": "Type de l'établissement sanitaire :"
+  },
+  {
+   "key": "cb.diabete",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    180.8,
+    1456.0,
+    203.0,
+    1478.2
+   ],
+   "label": "Diabète",
+   "group": "Si grossesse à risque, préciser le type de risque :"
+  },
+  {
+   "key": "cb.dr",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    249.6,
+    661.5,
+    271.9,
+    683.8
+   ],
+   "label": "DR",
+   "group": "Type de l'établissement sanitaire :"
+  },
+  {
+   "key": "cb.eclampsie",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    805.8,
+    1505.6,
+    828.0,
+    1527.8
+   ],
+   "label": "Eclampsie",
+   "group": "Si grossesse à risque, préciser le type de risque :"
+  },
+  {
+   "key": "cb.fixe",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    249.8,
+    897.6,
+    272.0,
+    919.9
+   ],
+   "label": "Fixe",
+   "group": "Type de l'établissement sanitaire :"
+  },
+  {
+   "key": "cb.grossesse_classee_a_risque",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    166.7,
+    1225.5,
+    188.9,
+    1247.7
+   ],
+   "label": "Grossesse classée à risque :",
+   "group": "Nom/Prénom de la parturiente :"
+  },
+  {
+   "key": "cb.h_t_a",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    180.7,
+    1406.0,
+    203.0,
+    1428.2
+   ],
+   "label": "H.T.A",
+   "group": "Si grossesse à risque, préciser le type de risque :"
+  },
+  {
+   "key": "cb.infection",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    805.7,
+    1405.6,
+    828.0,
+    1427.8
+   ],
+   "label": "Infection",
+   "group": "Si grossesse à risque, préciser le type de risque :"
+  },
+  {
+   "key": "cb.metrorragie",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    805.7,
+    1355.6,
+    827.9,
+    1377.8
+   ],
+   "label": "Métrorragie",
+   "group": "Si grossesse à risque, préciser le type de risque :"
+  },
+  {
+   "key": "cb.mobile",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    638.7,
+    897.3,
+    660.9,
+    919.6
+   ],
+   "label": "Mobile",
+   "group": "Type de l'établissement sanitaire :"
+  },
+  {
+   "key": "cb.pre_eclampsie",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    805.8,
+    1455.6,
+    828.0,
+    1477.8
+   ],
+   "label": "Pré-éclampsie",
+   "group": "Si grossesse à risque, préciser le type de risque :"
+  },
+  {
+   "key": "inline.n_de_la_fiche",
+   "type": "text",
+   "value": "2026-995-004",
+   "status": "CONNU",
+   "bbox": [
+    305.0,
+    282.2,
+    498.1,
+    315.3
+   ],
+   "label_bbox": [
+    138.2,
+    282.1,
+    289.2,
+    312.7
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.nom_de_l_etablissement_sanitaire",
+   "type": "text",
+   "value": "CSCA Ait Mhamed",
+   "status": "CONNU",
+   "bbox": [
+    494.0,
+    475.7,
+    711.3,
+    509.8
+   ],
+   "label_bbox": [
+    138.4,
+    476.4,
+    477.3,
+    507.1
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.nom_prenom_de_la_parturiente",
+   "type": "text",
+   "value": null,
+   "status": "CONNU",
+   "bbox": [
+    471.3,
+    1040.8,
+    652.6,
+    1080.3
+   ],
+   "label_bbox": [
+    138.8,
+    1045.8,
+    455.0,
+    1076.6
+   ],
+   "raw": null,
+   "identifier": true
+  },
+  {
+   "key": "inline.province",
+   "type": "text",
+   "value": "Azilal",
+   "status": "CONNU",
+   "bbox": [
+    1010.0,
+    378.0,
+    1075.4,
+    411.8
+   ],
+   "label_bbox": [
+    888.3,
+    378.8,
+    993.3,
+    409.4
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.region",
+   "type": "text",
+   "value": "Béni Mellal-Khénifra",
+   "status": "CONNU",
+   "bbox": [
+    243.7,
+    377.7,
+    514.3,
+    412.5
+   ],
+   "label_bbox": [
+    138.3,
+    379.3,
+    227.3,
+    409.9
+   ],
+   "raw": null
+  }
+ ]
+}

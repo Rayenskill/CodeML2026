@@ -1,0 +1,21 @@
+# Python 3.11-3.13. For GPU inference install torch from https://download.pytorch.org/whl/cu124 first (CPU works, slower).
+torch>=2.4
+torchvision
+numpy
+opencv-python-headless
+pymupdf
+pillow
+scikit-learn
+joblib
+pandas
+rapidfuzz
+python-bidi
+arabic-reshaper
+fonttools
+cryptography
+fastapi
+uvicorn
+python-multipart
+httpx
+pytest
+hypothesis

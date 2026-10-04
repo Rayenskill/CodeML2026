@@ -1,0 +1,674 @@
+{
+ "page": 80,
+ "patient": 10,
+ "page_type": 8,
+ "page_type_name": "postpartum_tardif_nouveau_ne",
+ "font": "ReenieBeanie",
+ "png": [
+  "dossiers_specimen_10_patientes-80.png"
+ ],
+ "fields": [
+  {
+   "key": "cb.a_problemes",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    888.9,
+    1124.9,
+    911.1,
+    1147.2
+   ],
+   "label": "A problèmes",
+   "group": "Evaluation de l'allaitement maternel :"
+  },
+  {
+   "key": "cb.artificiel",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    694.0,
+    486.2,
+    716.2,
+    508.4
+   ],
+   "label": "Artificiel",
+   "group": "Allaitement :"
+  },
+  {
+   "key": "cb.autres",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    166.9,
+    1508.8,
+    189.1,
+    1531.0
+   ],
+   "label": "Autres",
+   "group": "Présence de complications et de malformation :"
+  },
+  {
+   "key": "cb.bcg",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    527.8,
+    1230.7,
+    550.1,
+    1253.0
+   ],
+   "label": "BCG",
+   "group": "Vaccins administrés ce jour :"
+  },
+  {
+   "key": "cb.bosse_serosanguine_ou_cephalohematome",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    166.5,
+    903.2,
+    188.7,
+    925.4
+   ],
+   "label": "Bosse sérosanguine ou céphalohématome",
+   "group": "Contusions, lésions traumatiques et malformations :"
+  },
+  {
+   "key": "cb.conjonctivite",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    611.3,
+    1408.5,
+    633.5,
+    1430.7
+   ],
+   "label": "Conjonctivite",
+   "group": "Présence de complications et de malformation :"
+  },
+  {
+   "key": "cb.convulsions",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    138.5,
+    603.2,
+    160.7,
+    625.5
+   ],
+   "label": "Convulsions",
+   "group": "Signes d'une affection grave :"
+  },
+  {
+   "key": "cb.diarrhee",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    138.5,
+    653.2,
+    160.8,
+    675.5
+   ],
+   "label": "Diarrhée",
+   "group": "Signes d'une affection grave :"
+  },
+  {
+   "key": "cb.diminution_ou_absence_de_la_mobilite_d_un_membre",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    166.5,
+    992.1,
+    188.8,
+    1014.3
+   ],
+   "label": "Diminution ou absence de la mobilité d'un membre",
+   "group": "Contusions, lésions traumatiques et malformations :"
+  },
+  {
+   "key": "cb.exclusivement_au_sein",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    305.1,
+    486.4,
+    327.3,
+    508.7
+   ],
+   "label": "exclusivement au sein",
+   "group": "Allaitement :"
+  },
+  {
+   "key": "cb.fievre",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    485.8,
+    703.0,
+    508.0,
+    725.2
+   ],
+   "label": "Fièvre",
+   "group": "Signes d'une affection grave :"
+  },
+  {
+   "key": "cb.hb",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    694.5,
+    1230.6,
+    716.7,
+    1252.9
+   ],
+   "label": "HB",
+   "group": "Vaccins administrés ce jour :"
+  },
+  {
+   "key": "cb.hematemeses",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    832.9,
+    602.8,
+    855.2,
+    625.0
+   ],
+   "label": "Hématémèses",
+   "group": "Signes d'une affection grave :"
+  },
+  {
+   "key": "cb.hypothermie",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    833.0,
+    702.8,
+    855.3,
+    725.0
+   ],
+   "label": "Hypothermie",
+   "group": "Signes d'une affection grave :"
+  },
+  {
+   "key": "cb.ictere",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    485.8,
+    653.0,
+    508.0,
+    675.2
+   ],
+   "label": "Ictère",
+   "group": "Signes d'une affection grave :"
+  },
+  {
+   "key": "cb.ictere_2",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    166.8,
+    1408.8,
+    189.1,
+    1431.0
+   ],
+   "label": "Ictère",
+   "group": "Présence de complications et de malformation :"
+  },
+  {
+   "key": "cb.infection",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    389.1,
+    1408.6,
+    411.3,
+    1430.9
+   ],
+   "label": "Infection",
+   "group": "Présence de complications et de malformation :"
+  },
+  {
+   "key": "cb.luxation_congenitale_de_la_hanche",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    166.5,
+    947.7,
+    188.8,
+    969.9
+   ],
+   "label": "Luxation congénitale de la hanche",
+   "group": "Contusions, lésions traumatiques et malformations :"
+  },
+  {
+   "key": "cb.malformation",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    389.1,
+    1458.6,
+    411.3,
+    1480.9
+   ],
+   "label": "Malformation",
+   "group": "Présence de complications et de malformation :"
+  },
+  {
+   "key": "cb.melaenas",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    1180.2,
+    602.5,
+    1202.4,
+    624.8
+   ],
+   "label": "Mélaenas",
+   "group": "Signes d'une affection grave :"
+  },
+  {
+   "key": "cb.mixte",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    916.2,
+    486.0,
+    938.4,
+    508.3
+   ],
+   "label": "mixte",
+   "group": "Allaitement :"
+  },
+  {
+   "key": "cb.normal",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    694.4,
+    1125.1,
+    716.7,
+    1147.3
+   ],
+   "label": "Normal",
+   "group": "Evaluation de l'allaitement maternel :"
+  },
+  {
+   "key": "cb.nouveau_ne_hypotrophe",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    527.3,
+    425.2,
+    549.5,
+    447.4
+   ],
+   "label": "Nouveau-né hypotrophe",
+   "group": "Date de la consultation :"
+  },
+  {
+   "key": "cb.nouveau_ne_premature",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    127.3,
+    425.5,
+    149.5,
+    447.7
+   ],
+   "label": "Nouveau-né prématuré",
+   "group": "Date de la consultation :"
+  },
+  {
+   "key": "cb.refus_de_teter",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    485.7,
+    603.0,
+    508.0,
+    625.2
+   ],
+   "label": "Refus de téter",
+   "group": "Signes d'une affection grave :"
+  },
+  {
+   "key": "cb.rythme_respiratoire_anormal",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    138.6,
+    703.2,
+    160.8,
+    725.5
+   ],
+   "label": "Rythme respiratoire anormal",
+   "group": "Signes d'une affection grave :"
+  },
+  {
+   "key": "cb.supplementation_en_vitamine_d",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    127.9,
+    1286.6,
+    150.1,
+    1308.8
+   ],
+   "label": "Supplémentation en vitamine D",
+   "group": "Vaccins administrés ce jour :"
+  },
+  {
+   "key": "cb.tirage_sous_costal",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    833.0,
+    652.8,
+    855.2,
+    675.0
+   ],
+   "label": "Tirage sous costal",
+   "group": "Signes d'une affection grave :"
+  },
+  {
+   "key": "cb.toux",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    1180.2,
+    652.5,
+    1202.4,
+    674.8
+   ],
+   "label": "Toux",
+   "group": "Signes d'une affection grave :"
+  },
+  {
+   "key": "cb.transfert",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    128.3,
+    1883.8,
+    150.5,
+    1906.0
+   ],
+   "label": "Transfert",
+   "group": "Préciser l'établissement de référence :"
+  },
+  {
+   "key": "cb.traumatisme",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    166.9,
+    1458.8,
+    189.1,
+    1481.0
+   ],
+   "label": "Traumatisme",
+   "group": "Présence de complications et de malformation :"
+  },
+  {
+   "key": "inline.age",
+   "type": "text",
+   "value": "44 jours",
+   "status": "CONNU",
+   "bbox": [
+    189.4,
+    291.4,
+    291.0,
+    332.8
+   ],
+   "label_bbox": [
+    127.2,
+    298.8,
+    172.9,
+    329.3
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.autres_a_preciser",
+   "type": "text",
+   "value": "Néant",
+   "status": "CONNU",
+   "bbox": [
+    330.4,
+    763.5,
+    400.3,
+    802.1
+   ],
+   "label_bbox": [
+    127.5,
+    768.1,
+    314.0,
+    798.8
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.autres_a_preciser_2",
+   "type": "text",
+   "value": "RAS",
+   "status": "CONNU",
+   "bbox": [
+    369.6,
+    1050.6,
+    418.5,
+    1088.7
+   ],
+   "label_bbox": [
+    166.6,
+    1054.2,
+    353.1,
+    1084.9
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.date_de_la_consultation",
+   "type": "text",
+   "value": "20/08/2026",
+   "status": "CONNU",
+   "bbox": [
+    1176.9,
+    190.8,
+    1312.4,
+    232.9
+   ],
+   "label_bbox": [
+    916.0,
+    198.1,
+    1160.6,
+    228.8
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.decision_prise",
+   "type": "text",
+   "value": "Poursuivre l'allaitement exclusif",
+   "status": "CONNU",
+   "bbox": [
+    302.4,
+    1690.9,
+    709.2,
+    1734.1
+   ],
+   "label_bbox": [
+    128.1,
+    1698.7,
+    286.2,
+    1729.3
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.perimetre_cranien",
+   "type": "text",
+   "value": "39 cm",
+   "status": "CONNU",
+   "bbox": [
+    723.8,
+    351.3,
+    806.7,
+    393.8
+   ],
+   "label_bbox": [
+    527.2,
+    359.5,
+    708.8,
+    390.2
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.poids",
+   "type": "text",
+   "value": "4480 g",
+   "status": "CONNU",
+   "bbox": [
+    1133.4,
+    292.7,
+    1222.5,
+    333.1
+   ],
+   "label_bbox": [
+    1055.0,
+    298.1,
+    1116.7,
+    328.7
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.revenir_pour_une_visite_de_suivi_necessaire_le",
+   "type": "text",
+   "value": "19/10/2026",
+   "status": "CONNU",
+   "bbox": [
+    595.4,
+    2108.2,
+    727.3,
+    2150.4
+   ],
+   "label_bbox": [
+    128.4,
+    2115.2,
+    580.5,
+    2146.0
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.taille",
+   "type": "text",
+   "value": "54 cm",
+   "status": "CONNU",
+   "bbox": [
+    202.9,
+    351.3,
+    283.7,
+    394.2
+   ],
+   "label_bbox": [
+    127.2,
+    359.9,
+    186.5,
+    390.5
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.temperature",
+   "type": "text",
+   "value": "36.9 °C",
+   "status": "CONNU",
+   "bbox": [
+    677.2,
+    291.7,
+    771.2,
+    333.7
+   ],
+   "label_bbox": [
+    527.2,
+    298.4,
+    660.6,
+    329.1
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.traitement_prescrit",
+   "type": "text",
+   "value": "Néant",
+   "status": "CONNU",
+   "bbox": [
+    347.6,
+    1775.8,
+    424.3,
+    1816.5
+   ],
+   "label_bbox": [
+    128.2,
+    1782.0,
+    332.0,
+    1812.7
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.vu_par",
+   "type": "text",
+   "value": "Dr Benjelloun",
+   "status": "CONNU",
+   "bbox": [
+    227.9,
+    1608.1,
+    397.5,
+    1650.5
+   ],
+   "label_bbox": [
+    128.1,
+    1615.4,
+    212.1,
+    1646.0
+   ],
+   "raw": null
+  }
+ ]
+}

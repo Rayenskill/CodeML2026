@@ -1,0 +1,21 @@
+# Core
+pymupdf>=1.24
+pydantic>=2.5
+reportlab>=4.0
+pillow>=10.0
+numpy>=1.26
+# Local OCR for pages without a text layer.
+# rapidocr 3.x runs the PP-OCRv5 models (fetched once on first use, then cached on disk);
+# rapidocr-onnxruntime carries the PP-OCRv4 models inside its wheel and is the offline fallback.
+rapidocr>=3.9
+rapidocr-onnxruntime>=1.4,<2
+# Scoring against a spreadsheet of documented non-conformities (`evaluate`)
+openpyxl>=3.1
+# Interface
+streamlit>=1.30
+pandas>=2.0
+# Tests and notebook
+pytest>=8.0
+nbformat>=5.9
+nbclient>=0.9
+ipykernel>=6.0

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DayOne Sage-femme</title>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#075e54">
+<style>
+  :root { --hdr:#075e54; --hdr2:#128c7e; --wall:#ece5dd; --me:#dcf8c6; --bot:#ffffff; --fg:#111b21; --muted:#667781;
+          --btn:#ffffff; --btnfg:#027eb5; --warn:#b26b00; --ok:#1f7a3a; }
+  * { box-sizing:border-box; }
+  html, body { height:100%; margin:0; }
+  body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background:var(--wall); color:var(--fg);
+         display:flex; flex-direction:column; }
+  header { background:var(--hdr); color:#fff; display:flex; align-items:center; gap:10px; padding:10px 12px; }
+  .avatar { width:38px; height:38px; border-radius:50%; background:#25d366; display:grid; place-items:center; font-weight:700; }
+  .title { flex:1; min-width:0; } .title b { display:block; } .title small { opacity:.85; font-size:12px; }
+  header button { background:transparent; color:#fff; border:1px solid rgba(255,255,255,.5); border-radius:14px; padding:4px 9px; font-size:12px; }
+  #chat { flex:1; overflow-y:auto; padding:12px 10px 4px; }
+  .row { display:flex; margin:4px 0; } .row.me { justify-content:flex-end; }
+  .bubble { max-width:85%; padding:7px 9px 18px; border-radius:8px; position:relative; box-shadow:0 1px 1px rgba(0,0,0,.12);
+            white-space:pre-wrap; word-wrap:break-word; font-size:15px; line-height:1.35; }
+  .bot .bubble { background:var(--bot); border-top-left-radius:0; } .me .bubble { background:var(--me); border-top-right-radius:0; }
+  .bubble img { display:block; max-width:100%; max-height:320px; object-fit:contain; border-radius:6px; margin:2px 0 4px; }
+  .me .bubble img { max-height:180px; width:auto; }
+  .meta { position:absolute; right:7px; bottom:3px; font-size:11px; color:var(--muted); }
+  .replies { display:flex; flex-direction:column; gap:4px; margin:2px 0 8px; max-width:85%; }
+  .replies button { background:var(--btn); color:var(--btnfg); border:none; border-radius:8px; padding:9px; font-size:15px;
+                    box-shadow:0 1px 1px rgba(0,0,0,.12); cursor:pointer; }
+  .replies button:disabled { color:#9aa; cursor:default; }
+  .sys { text-align:center; margin:8px 0; } .sys span { background:#e1f3fb; color:#54656f; font-size:12.5px; padding:4px 9px; border-radius:7px; }
+  footer { display:flex; gap:6px; padding:6px 8px calc(6px + env(safe-area-inset-bottom)); background:#f0f2f5; align-items:center; }
+  footer input[type=text] { flex:1; border:none; border-radius:20px; padding:10px 14px; font-size:16px; }
+  .round { width:44px; height:44px; border-radius:50%; border:none; background:var(--hdr2); color:#fff; font-size:20px; cursor:pointer; }
+  #lock { position:fixed; inset:0; background:var(--hdr); color:#fff; display:flex; flex-direction:column; align-items:center;
+          justify-content:center; gap:12px; padding:16px; z-index:10; }
+  #lock[hidden], [hidden] { display:none !important; }
+  #lock input { font-size:22px; padding:10px; border-radius:8px; border:none; width:160px; text-align:center; letter-spacing:6px; }
+  #lock button { font-size:16px; padding:10px 22px; border-radius:20px; border:none; background:#25d366; color:#fff; }
+  #drawer { position:fixed; top:58px; right:8px; width:min(360px, calc(100% - 16px)); max-height:70vh; overflow:auto; background:#fff;
+            border-radius:10px; box-shadow:0 4px 18px rgba(0,0,0,.25); padding:10px; z-index:5; font-size:13px; }
+  #drawer li { display:flex; justify-content:space-between; gap:8px; padding:5px 0; border-bottom:1px solid #eee; list-style:none; }
+  #drawer ul { margin:0; padding:0; }
+  .pill { font-size:11px; padding:2px 7px; border-radius:10px; background:#eef; white-space:nowrap; }
+  .pill.SYNCHRONISÉ { background:#d8f5df; color:var(--ok); } .pill.EN_ATTENTE_IA { background:#fdecc8; color:var(--warn); }
+  .pill.À_RÉVISER, .pill.RÉVISION_MANUELLE_REQUISE, .pill.DOUBLON_SUSPECTÉ { background:#fde2e2; color:#a33; }
+</style>
+</head>
+<body>
+<div id="lock">
+  <div class="avatar" style="width:64px;height:64px;font-size:26px">D1</div>
+  <div id="lockTitle">Code PIN de l'appareil</div>
+  <input id="pin" type="password" inputmode="numeric" autocomplete="off" maxlength="8">
+  <input id="mid" type="text" autocomplete="off" maxlength="16" placeholder="ID sage-femme (sf-01)" aria-label="Identifiant de la sage-femme" style="font-size:14px;letter-spacing:1px;width:180px">
+  <button id="unlock">Déverrouiller</button>
+  <small id="lockMsg"></small>
+</div>
+<header>
+  <div class="avatar">D1</div>
+  <div class="title"><b>DayOne · Registre</b><small id="net">…</small></div>
+  <button id="lang">EN</button>
+  <button id="offline" title="Simuler une coupure réseau">📶</button>
+  <button id="queueBtn">☰</button>
+</header>
+<div id="drawer" hidden><b id="qTitle">File d'attente</b><ul id="queue"></ul></div>
+<main id="chat" aria-live="polite"></main>
+<footer>
+  <input id="file" type="file" accept="image/*" hidden>
+  <button class="round" id="cam" title="Photo">📷</button>
+  <input id="text" type="text" placeholder="Message" autocomplete="off">
+  <button class="round" id="send">➤</button>
+</footer>
+<script src="i18n.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

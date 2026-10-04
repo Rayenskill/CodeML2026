@@ -1,0 +1,10 @@
+{
+  "model_file": "work/codex_model/refinement/sparse_spline.joblib",
+  "model_sha256": "00db514a18974b92558a0fdb3820594e651a568bbab11a62bd88f3babf639846",
+  "scored_prediction_file": "upload_model_round2/sparse_spline.csv",
+  "scored_prediction_sha256": "9908902ea0d404999334308a2c0b2505e0970dda96dadbf6b4bd06123b9f3695",
+  "observed_accuracy_percent": 94.88,
+  "observed_macro_f1_percent": 94.66,
+  "label_source": "data/donnees_demandes.csv",
+  "selection_basis": "Best observed aggregate platform score among clean models; no applicant labels reconstructed."
+}

@@ -1,0 +1,461 @@
+{
+  "training_rows": 10000,
+  "development_rows": 8000,
+  "training_sha256": "a3ce4e56b691daa163e3a455a88e76f85e3a1c8e201293fd3a87516b163c1f6d",
+  "historical_holdout_used_for_selection": false,
+  "preview_results_used_for_fitting": false,
+  "reference_accuracy": null,
+  "search": [
+    {
+      "config": {
+        "family": "regional_spline",
+        "standardize": false,
+        "C": 3.0
+      },
+      "development_cv": {
+        "accuracy": 0.8895,
+        "accuracy_wilson_95_interval": [
+          0.8824421564600843,
+          0.8961839610190389
+        ],
+        "macro_f1": 0.8843639602491957,
+        "roc_auc": 0.9579717919029962,
+        "log_loss": 0.25651876150073294,
+        "brier": 0.07970491872382053
+      }
+    },
+    {
+      "config": {
+        "family": "regional_spline",
+        "standardize": true,
+        "C": 3.0
+      },
+      "development_cv": {
+        "accuracy": 0.88975,
+        "accuracy_wilson_95_interval": [
+          0.8826988406766262,
+          0.8964270368265531
+        ],
+        "macro_f1": 0.8846382939651702,
+        "roc_auc": 0.9579468439728439,
+        "log_loss": 0.2565645277184477,
+        "brier": 0.07971273391311647
+      }
+    },
+    {
+      "config": {
+        "family": "regional_spline",
+        "standardize": false,
+        "C": 0.3
+      },
+      "development_cv": {
+        "accuracy": 0.889375,
+        "accuracy_wilson_95_interval": [
+          0.8823138185129519,
+          0.8960624189541436
+        ],
+        "macro_f1": 0.8842139811323411,
+        "roc_auc": 0.9579536834837212,
+        "log_loss": 0.25659963231658545,
+        "brier": 0.07972776176048169
+      }
+    },
+    {
+      "config": {
+        "family": "sparse_spline",
+        "knots": 5,
+        "curve_hours": true,
+        "C": 3.0
+      },
+      "development_cv": {
+        "accuracy": 0.8885,
+        "accuracy_wilson_95_interval": [
+          0.8814155301753746,
+          0.895211547207525
+        ],
+        "macro_f1": 0.8832917102114848,
+        "roc_auc": 0.9579392228035806,
+        "log_loss": 0.2566330633020466,
+        "brier": 0.07976151324216306
+      }
+    },
+    {
+      "config": {
+        "family": "regional_spline",
+        "standardize": true,
+        "C": 0.3
+      },
+      "development_cv": {
+        "accuracy": 0.889875,
+        "accuracy_wilson_95_interval": [
+          0.8828271869542892,
+          0.896548570560918
+        ],
+        "macro_f1": 0.8847881050060958,
+        "roc_auc": 0.9579224822864811,
+        "log_loss": 0.2566374108415024,
+        "brier": 0.07972922115973943
+      }
+    },
+    {
+      "config": {
+        "family": "tensor",
+        "knots": 3,
+        "C": 0.1
+      },
+      "development_cv": {
+        "accuracy": 0.888875,
+        "accuracy_wilson_95_interval": [
+          0.8818004943695866,
+          0.8955762230493968
+        ],
+        "macro_f1": 0.8837674341290094,
+        "roc_auc": 0.957861512932375,
+        "log_loss": 0.25685146547820525,
+        "brier": 0.07976956145754607
+      }
+    },
+    {
+      "config": {
+        "family": "tensor",
+        "knots": 3,
+        "C": 1.0
+      },
+      "development_cv": {
+        "accuracy": 0.888875,
+        "accuracy_wilson_95_interval": [
+          0.8818004943695866,
+          0.8955762230493968
+        ],
+        "macro_f1": 0.8837801677033224,
+        "roc_auc": 0.9578200850379185,
+        "log_loss": 0.2569165273988535,
+        "brier": 0.07976276779333517
+      }
+    },
+    {
+      "config": {
+        "family": "quadratic",
+        "C": 1.0
+      },
+      "development_cv": {
+        "accuracy": 0.8885,
+        "accuracy_wilson_95_interval": [
+          0.8814155301753746,
+          0.895211547207525
+        ],
+        "macro_f1": 0.8833303381144351,
+        "roc_auc": 0.9578088812677197,
+        "log_loss": 0.2569271598352959,
+        "brier": 0.07982823074635029
+      }
+    },
+    {
+      "config": {
+        "family": "quadratic",
+        "C": 10.0
+      },
+      "development_cv": {
+        "accuracy": 0.888625,
+        "accuracy_wilson_95_interval": [
+          0.8815438488279077,
+          0.89533310856702
+        ],
+        "macro_f1": 0.8834675486468626,
+        "roc_auc": 0.9577920104742222,
+        "log_loss": 0.25694955842932304,
+        "brier": 0.07983105864502134
+      }
+    },
+    {
+      "config": {
+        "family": "context_spline",
+        "C": 3.0
+      },
+      "development_cv": {
+        "accuracy": 0.88875,
+        "accuracy_wilson_95_interval": [
+          0.8816721702246312,
+          0.8954546671823244
+        ],
+        "macro_f1": 0.8834628249030254,
+        "roc_auc": 0.9577091546853091,
+        "log_loss": 0.2571178637032766,
+        "brier": 0.07999226480655389
+      }
+    },
+    {
+      "config": {
+        "family": "tensor",
+        "knots": 5,
+        "C": 0.1
+      },
+      "development_cv": {
+        "accuracy": 0.888875,
+        "accuracy_wilson_95_interval": [
+          0.8818004943695866,
+          0.8955762230493968
+        ],
+        "macro_f1": 0.8837291254175766,
+        "roc_auc": 0.9577199676263152,
+        "log_loss": 0.2571303562974005,
+        "brier": 0.07989628280770228
+      }
+    },
+    {
+      "config": {
+        "family": "context_spline",
+        "C": 30.0
+      },
+      "development_cv": {
+        "accuracy": 0.888875,
+        "accuracy_wilson_95_interval": [
+          0.8818004943695866,
+          0.8955762230493968
+        ],
+        "macro_f1": 0.8835872700584642,
+        "roc_auc": 0.9577051161169816,
+        "log_loss": 0.25715728475593436,
+        "brier": 0.07998667993686545
+      }
+    },
+    {
+      "config": {
+        "family": "tensor",
+        "knots": 5,
+        "C": 1.0
+      },
+      "development_cv": {
+        "accuracy": 0.88925,
+        "accuracy_wilson_95_interval": [
+          0.8821854833344283,
+          0.8959408741206392
+        ],
+        "macro_f1": 0.8840510748471906,
+        "roc_auc": 0.9576752828219172,
+        "log_loss": 0.25717994357332324,
+        "brier": 0.07992472420154385
+      }
+    },
+    {
+      "config": {
+        "family": "context_spline",
+        "C": 0.3
+      },
+      "development_cv": {
+        "accuracy": 0.88825,
+        "accuracy_wilson_95_interval": [
+          0.881158901086769,
+          0.8949684162720747
+        ],
+        "macro_f1": 0.8829651448208149,
+        "roc_auc": 0.9576746314399286,
+        "log_loss": 0.2572332803587021,
+        "brier": 0.08001737023773711
+      }
+    },
+    {
+      "config": {
+        "family": "tensor",
+        "knots": 4,
+        "C": 0.1
+      },
+      "development_cv": {
+        "accuracy": 0.888375,
+        "accuracy_wilson_95_interval": [
+          0.8812872142630014,
+          0.8950899831078704
+        ],
+        "macro_f1": 0.8832572438234723,
+        "roc_auc": 0.957719641935321,
+        "log_loss": 0.25726162626808013,
+        "brier": 0.07985503971902629
+      }
+    },
+    {
+      "config": {
+        "family": "tensor",
+        "knots": 4,
+        "C": 1.0
+      },
+      "development_cv": {
+        "accuracy": 0.888625,
+        "accuracy_wilson_95_interval": [
+          0.8815438488279077,
+          0.89533310856702
+        ],
+        "macro_f1": 0.8834803649948142,
+        "roc_auc": 0.9576081253389221,
+        "log_loss": 0.25751143464552445,
+        "brier": 0.0799103321319141
+      }
+    },
+    {
+      "config": {
+        "family": "quadratic",
+        "C": 0.1
+      },
+      "development_cv": {
+        "accuracy": 0.888375,
+        "accuracy_wilson_95_interval": [
+          0.8812872142630014,
+          0.8950899831078704
+        ],
+        "macro_f1": 0.8830373337986954,
+        "roc_auc": 0.9579122555892646,
+        "log_loss": 0.25811574063859755,
+        "brier": 0.08001225278863361
+      }
+    },
+    {
+      "config": {
+        "family": "tensor",
+        "knots": 4,
+        "C": 0.01
+      },
+      "development_cv": {
+        "accuracy": 0.888125,
+        "accuracy_wilson_95_interval": [
+          0.8810305906426693,
+          0.8948468467041465
+        ],
+        "macro_f1": 0.8828537692233325,
+        "roc_auc": 0.9573607955979605,
+        "log_loss": 0.26126690501342925,
+        "brier": 0.08061474624673254
+      }
+    },
+    {
+      "config": {
+        "family": "tensor",
+        "knots": 5,
+        "C": 0.01
+      },
+      "development_cv": {
+        "accuracy": 0.887625,
+        "accuracy_wilson_95_interval": [
+          0.8805173761078221,
+          0.8943605411908818
+        ],
+        "macro_f1": 0.8822646396562127,
+        "roc_auc": 0.9573012592842289,
+        "log_loss": 0.26155937781876815,
+        "brier": 0.0806514258585098
+      }
+    },
+    {
+      "config": {
+        "family": "tensor",
+        "knots": 3,
+        "C": 0.01
+      },
+      "development_cv": {
+        "accuracy": 0.88875,
+        "accuracy_wilson_95_interval": [
+          0.8816721702246312,
+          0.8954546671823244
+        ],
+        "macro_f1": 0.8834237399694478,
+        "roc_auc": 0.9576298814973319,
+        "log_loss": 0.26209043394729586,
+        "brier": 0.08080580980271448
+      }
+    }
+  ],
+  "selected": {
+    "tensor": {
+      "config": {
+        "family": "tensor",
+        "knots": 3,
+        "C": 0.1
+      },
+      "development_cv": {
+        "accuracy": 0.888875,
+        "accuracy_wilson_95_interval": [
+          0.8818004943695866,
+          0.8955762230493968
+        ],
+        "macro_f1": 0.8837674341290094,
+        "roc_auc": 0.957861512932375,
+        "log_loss": 0.25685146547820525,
+        "brier": 0.07976956145754607
+      }
+    },
+    "quadratic": {
+      "config": {
+        "family": "quadratic",
+        "C": 1.0
+      },
+      "development_cv": {
+        "accuracy": 0.8885,
+        "accuracy_wilson_95_interval": [
+          0.8814155301753746,
+          0.895211547207525
+        ],
+        "macro_f1": 0.8833303381144351,
+        "roc_auc": 0.9578088812677197,
+        "log_loss": 0.2569271598352959,
+        "brier": 0.07982823074635029
+      }
+    },
+    "regional_spline": {
+      "config": {
+        "family": "regional_spline",
+        "standardize": false,
+        "C": 3.0
+      },
+      "development_cv": {
+        "accuracy": 0.8895,
+        "accuracy_wilson_95_interval": [
+          0.8824421564600843,
+          0.8961839610190389
+        ],
+        "macro_f1": 0.8843639602491957,
+        "roc_auc": 0.9579717919029962,
+        "log_loss": 0.25651876150073294,
+        "brier": 0.07970491872382053
+      }
+    },
+    "context_spline": {
+      "config": {
+        "family": "context_spline",
+        "C": 3.0
+      },
+      "development_cv": {
+        "accuracy": 0.88875,
+        "accuracy_wilson_95_interval": [
+          0.8816721702246312,
+          0.8954546671823244
+        ],
+        "macro_f1": 0.8834628249030254,
+        "roc_auc": 0.9577091546853091,
+        "log_loss": 0.2571178637032766,
+        "brier": 0.07999226480655389
+      }
+    },
+    "regional_standardized": {
+      "config": {
+        "family": "regional_spline",
+        "standardize": true,
+        "C": 3.0
+      },
+      "development_cv": {
+        "accuracy": 0.88975,
+        "accuracy_wilson_95_interval": [
+          0.8826988406766262,
+          0.8964270368265531
+        ],
+        "macro_f1": 0.8846382939651702,
+        "roc_auc": 0.9579468439728439,
+        "log_loss": 0.2565645277184477,
+        "brier": 0.07971273391311647
+      }
+    }
+  },
+  "retention_hypotheses": [
+    0.05,
+    0.1,
+    0.15
+  ],
+  "reference_claim": "No hidden rule has been established; these are testable feature-based hypotheses."
+}

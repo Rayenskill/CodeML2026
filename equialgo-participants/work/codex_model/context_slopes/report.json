@@ -1,0 +1,288 @@
+{
+  "search": [
+    {
+      "config": {
+        "family": "context_slopes",
+        "context": [
+          "remote"
+        ],
+        "C": 0.03
+      },
+      "development_cv": {
+        "accuracy": 0.888875,
+        "accuracy_wilson_95_interval": [
+          0.8818004943695866,
+          0.8955762230493968
+        ],
+        "macro_f1": 0.8836391070832877,
+        "roc_auc": 0.9578043867320003,
+        "log_loss": 0.25871284025895935,
+        "brier": 0.07997166214819541
+      }
+    },
+    {
+      "config": {
+        "family": "context_slopes",
+        "context": [
+          "remote"
+        ],
+        "C": 0.3
+      },
+      "development_cv": {
+        "accuracy": 0.889125,
+        "accuracy_wilson_95_interval": [
+          0.8820571509204155,
+          0.8958193265226241
+        ],
+        "macro_f1": 0.8840162018382223,
+        "roc_auc": 0.9578535009339189,
+        "log_loss": 0.25702383298239967,
+        "brier": 0.0798245284234084
+      }
+    },
+    {
+      "config": {
+        "family": "context_slopes",
+        "context": [
+          "remote"
+        ],
+        "C": 3.0
+      },
+      "development_cv": {
+        "accuracy": 0.88925,
+        "accuracy_wilson_95_interval": [
+          0.8821854833344283,
+          0.8959408741206392
+        ],
+        "macro_f1": 0.8841023402497594,
+        "roc_auc": 0.9578322658811,
+        "log_loss": 0.25701718105295523,
+        "brier": 0.07982570675302313
+      }
+    },
+    {
+      "config": {
+        "family": "context_slopes",
+        "context": [
+          "log_income"
+        ],
+        "C": 0.03
+      },
+      "development_cv": {
+        "accuracy": 0.89,
+        "accuracy_wilson_95_interval": [
+          0.8829555360170688,
+          0.8966701015101665
+        ],
+        "macro_f1": 0.884861776890254,
+        "roc_auc": 0.9576900691930519,
+        "log_loss": 0.25875674272856836,
+        "brier": 0.07988276685306107
+      }
+    },
+    {
+      "config": {
+        "family": "context_slopes",
+        "context": [
+          "log_income"
+        ],
+        "C": 0.3
+      },
+      "development_cv": {
+        "accuracy": 0.88925,
+        "accuracy_wilson_95_interval": [
+          0.8821854833344283,
+          0.8959408741206392
+        ],
+        "macro_f1": 0.8842292467368099,
+        "roc_auc": 0.9577178832039526,
+        "log_loss": 0.2571957092433731,
+        "brier": 0.07982700252349116
+      }
+    },
+    {
+      "config": {
+        "family": "context_slopes",
+        "context": [
+          "log_income"
+        ],
+        "C": 3.0
+      },
+      "development_cv": {
+        "accuracy": 0.89025,
+        "accuracy_wilson_95_interval": [
+          0.8832122425146127,
+          0.8969131550366782
+        ],
+        "macro_f1": 0.8852620846598545,
+        "roc_auc": 0.957687593941496,
+        "log_loss": 0.2572413857097836,
+        "brier": 0.07986342695313398
+      }
+    },
+    {
+      "config": {
+        "family": "context_slopes",
+        "context": [
+          "remote",
+          "log_income"
+        ],
+        "C": 0.03
+      },
+      "development_cv": {
+        "accuracy": 0.89,
+        "accuracy_wilson_95_interval": [
+          0.8829555360170688,
+          0.8966701015101665
+        ],
+        "macro_f1": 0.8848998851353171,
+        "roc_auc": 0.9576820571945955,
+        "log_loss": 0.2586053155258536,
+        "brier": 0.07982924777284993
+      }
+    },
+    {
+      "config": {
+        "family": "context_slopes",
+        "context": [
+          "remote",
+          "log_income"
+        ],
+        "C": 0.3
+      },
+      "development_cv": {
+        "accuracy": 0.889625,
+        "accuracy_wilson_95_interval": [
+          0.8825704971799354,
+          0.8963055003112158
+        ],
+        "macro_f1": 0.8846275240281065,
+        "roc_auc": 0.9576152905407936,
+        "log_loss": 0.25760053204727296,
+        "brier": 0.07989782167702351
+      }
+    },
+    {
+      "config": {
+        "family": "context_slopes",
+        "context": [
+          "remote",
+          "log_income"
+        ],
+        "C": 3.0
+      },
+      "development_cv": {
+        "accuracy": 0.890125,
+        "accuracy_wilson_95_interval": [
+          0.883083887869121,
+          0.8967916296701424
+        ],
+        "macro_f1": 0.8851000499648118,
+        "roc_auc": 0.9575432476928863,
+        "log_loss": 0.2577796570342981,
+        "brier": 0.0799783535789023
+      }
+    },
+    {
+      "config": {
+        "family": "sparse_spline",
+        "knots": 5,
+        "curve_hours": true,
+        "C": 3.0
+      },
+      "development_cv": {
+        "accuracy": 0.8885,
+        "accuracy_wilson_95_interval": [
+          0.8814155301753746,
+          0.895211547207525
+        ],
+        "macro_f1": 0.8832917102114848,
+        "roc_auc": 0.9579392228035806,
+        "log_loss": 0.2566330633020466,
+        "brier": 0.07976151324216306
+      }
+    }
+  ],
+  "selected": {
+    "config": {
+      "family": "context_slopes",
+      "context": [
+        "remote"
+      ],
+      "C": 3.0
+    },
+    "development_cv": {
+      "accuracy": 0.88925,
+      "accuracy_wilson_95_interval": [
+        0.8821854833344283,
+        0.8959408741206392
+      ],
+      "macro_f1": 0.8841023402497594,
+      "roc_auc": 0.9578322658811,
+      "log_loss": 0.25701718105295523,
+      "brier": 0.07982570675302313
+    }
+  },
+  "incumbent": {
+    "config": {
+      "family": "sparse_spline",
+      "knots": 5,
+      "curve_hours": true,
+      "C": 3.0
+    },
+    "development_cv": {
+      "accuracy": 0.8885,
+      "accuracy_wilson_95_interval": [
+        0.8814155301753746,
+        0.895211547207525
+      ],
+      "macro_f1": 0.8832917102114848,
+      "roc_auc": 0.9579392228035806,
+      "log_loss": 0.2566330633020466,
+      "brier": 0.07976151324216306
+    }
+  },
+  "historical_log_loss_improved": false,
+  "training_sha256": "a3ce4e56b691daa163e3a455a88e76f85e3a1c8e201293fd3a87516b163c1f6d",
+  "reference_labels_used": false,
+  "historical_holdout_used": false,
+  "ensemble_weights": "Fixed equal weights; not optimized on preview results",
+  "submissions": [
+    {
+      "file": "/home/francklin99/Desktop/Coding/codeml/equialgo-participants/upload_model_round6/context_slopes.csv",
+      "rows": 4000,
+      "grants": 1600,
+      "grant_rate": 0.4,
+      "sha256": "6a052a247b691d793d6733bd984ebb4deb4560d793a1fad1bf27e11849819fcf",
+      "allocation_rule": "cohort_budget",
+      "fixed_training_threshold_grant_rate": 0.409,
+      "model": "context_slopes",
+      "artifact": "work/codex_model/context_slopes/context_slopes.joblib",
+      "artifact_sha256": "66c6ae58d7f02d0a9395deb9efa76f824d0b721b7d529707ebbbe10c50c4bcb2",
+      "different_decisions_from_incumbent": 42,
+      "verification_passed": true,
+      "reference_accuracy": null
+    },
+    {
+      "file": "/home/francklin99/Desktop/Coding/codeml/equialgo-participants/upload_model_round6/context_slopes_blend.csv",
+      "rows": 4000,
+      "grants": 1600,
+      "grant_rate": 0.4,
+      "sha256": "a648bc6a41783d9889ce8925d63ef28f1248b39b827b62f121a675a7967cbaf3",
+      "allocation_rule": "cohort_budget",
+      "fixed_training_threshold_grant_rate": 0.40775,
+      "model": "context_slopes_blend",
+      "artifact": "work/codex_model/context_slopes/context_slopes_blend.joblib",
+      "artifact_sha256": "04802c0e245ebd6a2d9f5f86fd32e53cdf6400e7791ebe68a8e886a630d7a908",
+      "different_decisions_from_incumbent": 18,
+      "verification_passed": true,
+      "reference_accuracy": null
+    }
+  ],
+  "source_sha256": {
+    "work/codex_model/model.py": "acf384586991391fd59037586a1ce6ef2f03db112785085900b6b4a2c5ca79b3",
+    "work/codex_model/context_slopes.py": "e1bc17075ea92dcbb6f63d6ffe17a7d22423a8b911582589aabd48822da952a1"
+  },
+  "previous_scored_submissions_preserved": true,
+  "incumbent_artifact_and_predictions_preserved": true
+}

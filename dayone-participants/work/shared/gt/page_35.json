@@ -1,0 +1,3153 @@
+{
+ "page": 35,
+ "patient": 5,
+ "page_type": 3,
+ "page_type_name": "grossesse_actuelle",
+ "font": "ReenieBeanie",
+ "png": [
+  "dossiers_specimen_10_patientes-35__1dlbkeq5N9.png",
+  "dossiers_specimen_10_patientes-35__1G4fXy_5Gm.png"
+ ],
+ "fields": [
+  {
+   "key": "cb.a",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    1041.3,
+    197.1,
+    1063.6,
+    219.4
+   ],
+   "label": "A",
+   "group": "Groupage :"
+  },
+  {
+   "key": "cb.ab",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    1308.0,
+    197.1,
+    1330.2,
+    219.3
+   ],
+   "label": "AB",
+   "group": "Groupage :"
+  },
+  {
+   "key": "cb.b",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    1130.2,
+    197.1,
+    1152.5,
+    219.3
+   ],
+   "label": "B",
+   "group": "Groupage :"
+  },
+  {
+   "key": "cb.o",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    1219.1,
+    197.1,
+    1241.3,
+    219.3
+   ],
+   "label": "O",
+   "group": "Groupage :"
+  },
+  {
+   "key": "cb.rh",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    1402.5,
+    197.0,
+    1424.7,
+    219.3
+   ],
+   "label": "Rh-",
+   "group": "Groupage :"
+  },
+  {
+   "key": "cb.rh_2",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    1402.5,
+    235.9,
+    1424.7,
+    258.1
+   ],
+   "label": "Rh+",
+   "group": "DATE DE DÉPASSEMENT DE TERME :"
+  },
+  {
+   "key": "inline.date_de_depassement_de_terme",
+   "type": "text",
+   "value": "08/05/2026",
+   "status": "CONNU",
+   "bbox": [
+    1176.2,
+    233.0,
+    1310.2,
+    275.5
+   ],
+   "label_bbox": [
+    749.7,
+    239.9,
+    1159.7,
+    270.6
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.date_prevue_d_accouchement",
+   "type": "text",
+   "value": "01/05/2026",
+   "status": "CONNU",
+   "bbox": [
+    518.6,
+    234.4,
+    649.2,
+    275.8
+   ],
+   "label_bbox": [
+    110.8,
+    240.1,
+    502.7,
+    270.8
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.ddr",
+   "type": "text",
+   "value": "25/07/2025",
+   "status": "CONNU",
+   "bbox": [
+    194.1,
+    186.4,
+    329.9,
+    228.8
+   ],
+   "label_bbox": [
+    110.8,
+    193.0,
+    177.5,
+    223.6
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.taille",
+   "type": "text",
+   "value": "163 cm",
+   "status": "CONNU",
+   "bbox": [
+    615.3,
+    186.2,
+    704.5,
+    227.6
+   ],
+   "label_bbox": [
+    527.4,
+    192.9,
+    599.1,
+    223.4
+   ],
+   "raw": null
+  },
+  {
+   "key": "visites.ag_hbs.t1_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.ag_hbs.t1_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.ag_hbs.t1_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.ag_hbs.t2_v1",
+   "type": "text",
+   "value": "Neg",
+   "status": "CONNU",
+   "bbox": [
+    801.1,
+    1583.2,
+    836.2,
+    1614.2
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.ag_hbs.t2_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.ag_hbs.t2_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.ag_hbs.t3_m7",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.ag_hbs.t3_m8",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.ag_hbs.t3_m9",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.age_probable.t1_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.age_probable.t1_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.age_probable.t1_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.age_probable.t2_v1",
+   "type": "text",
+   "value": "16 SA",
+   "status": "CONNU",
+   "bbox": [
+    800.9,
+    542.6,
+    857.3,
+    575.5
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.age_probable.t2_v2",
+   "type": "text",
+   "value": "22 SA",
+   "status": "CONNU",
+   "bbox": [
+    925.2,
+    543.0,
+    984.9,
+    574.9
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.age_probable.t2_v3",
+   "type": "text",
+   "value": "28 SA",
+   "status": "CONNU",
+   "bbox": [
+    1049.8,
+    542.6,
+    1111.3,
+    574.4
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.age_probable.t3_m7",
+   "type": "text",
+   "value": "31 SA",
+   "status": "CONNU",
+   "bbox": [
+    1174.0,
+    543.6,
+    1232.7,
+    575.1
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.age_probable.t3_m8",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.age_probable.t3_m9",
+   "type": "text",
+   "value": "38 SA",
+   "status": "CONNU",
+   "bbox": [
+    1423.0,
+    542.8,
+    1484.4,
+    575.1
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.albuminurie.t1_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.albuminurie.t1_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.albuminurie.t1_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.albuminurie.t2_v1",
+   "type": "text",
+   "value": "Neg",
+   "status": "CONNU",
+   "bbox": [
+    800.3,
+    1382.0,
+    835.4,
+    1414.7
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.albuminurie.t2_v2",
+   "type": "text",
+   "value": "Neg",
+   "status": "CONNU",
+   "bbox": [
+    924.8,
+    1383.8,
+    960.6,
+    1416.4
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.albuminurie.t2_v3",
+   "type": "text",
+   "value": "Neg",
+   "status": "CONNU",
+   "bbox": [
+    1050.0,
+    1383.9,
+    1084.7,
+    1415.3
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.albuminurie.t3_m7",
+   "type": "text",
+   "value": "Neg",
+   "status": "CONNU",
+   "bbox": [
+    1174.6,
+    1384.5,
+    1208.6,
+    1415.5
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.albuminurie.t3_m8",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.albuminurie.t3_m9",
+   "type": "text",
+   "value": "Neg",
+   "status": "CONNU",
+   "bbox": [
+    1423.4,
+    1382.3,
+    1458.6,
+    1413.5
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.anomalies_squelette.t1_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.anomalies_squelette.t1_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.anomalies_squelette.t1_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.anomalies_squelette.t2_v1",
+   "type": "text",
+   "value": "RAS",
+   "status": "CONNU",
+   "bbox": [
+    800.8,
+    743.0,
+    842.0,
+    773.6
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.anomalies_squelette.t2_v2",
+   "type": "text",
+   "value": "RAS",
+   "status": "CONNU",
+   "bbox": [
+    924.6,
+    741.0,
+    966.7,
+    773.3
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.anomalies_squelette.t2_v3",
+   "type": "text",
+   "value": "RAS",
+   "status": "CONNU",
+   "bbox": [
+    1050.0,
+    740.3,
+    1091.0,
+    772.2
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.anomalies_squelette.t3_m7",
+   "type": "text",
+   "value": "RAS",
+   "status": "CONNU",
+   "bbox": [
+    1174.2,
+    741.2,
+    1216.5,
+    773.7
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.anomalies_squelette.t3_m8",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.anomalies_squelette.t3_m9",
+   "type": "text",
+   "value": "RAS",
+   "status": "CONNU",
+   "bbox": [
+    1423.1,
+    741.0,
+    1464.8,
+    772.8
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.bcf.t1_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.bcf.t1_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.bcf.t1_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.bcf.t2_v1",
+   "type": "text",
+   "value": "143",
+   "status": "CONNU",
+   "bbox": [
+    800.7,
+    1037.7,
+    832.8,
+    1068.2
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.bcf.t2_v2",
+   "type": "text",
+   "value": "155",
+   "status": "CONNU",
+   "bbox": [
+    925.4,
+    1036.6,
+    955.3,
+    1069.7
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.bcf.t2_v3",
+   "type": "text",
+   "value": "143",
+   "status": "CONNU",
+   "bbox": [
+    1050.0,
+    1037.4,
+    1081.8,
+    1070.4
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.bcf.t3_m7",
+   "type": "text",
+   "value": "151",
+   "status": "CONNU",
+   "bbox": [
+    1174.2,
+    1037.0,
+    1202.5,
+    1068.5
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.bcf.t3_m8",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.bcf.t3_m9",
+   "type": "text",
+   "value": "132",
+   "status": "CONNU",
+   "bbox": [
+    1422.6,
+    1037.1,
+    1454.6,
+    1070.0
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.bilan_glycemique.t1_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.bilan_glycemique.t1_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.bilan_glycemique.t1_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.bilan_glycemique.t2_v1",
+   "type": "text",
+   "value": "0.84 g/L",
+   "status": "CONNU",
+   "bbox": [
+    801.1,
+    1779.1,
+    883.4,
+    1811.6
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.bilan_glycemique.t2_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.bilan_glycemique.t2_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.bilan_glycemique.t3_m7",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.bilan_glycemique.t3_m8",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.bilan_glycemique.t3_m9",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.etat_des_conjonctives.t1_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.etat_des_conjonctives.t1_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.etat_des_conjonctives.t1_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.etat_des_conjonctives.t2_v1",
+   "type": "text",
+   "value": "Pâles",
+   "status": "CONNU",
+   "bbox": [
+    800.6,
+    790.1,
+    853.0,
+    822.4
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.etat_des_conjonctives.t2_v2",
+   "type": "text",
+   "value": "Pâles",
+   "status": "CONNU",
+   "bbox": [
+    925.3,
+    788.8,
+    977.6,
+    822.1
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.etat_des_conjonctives.t2_v3",
+   "type": "text",
+   "value": "Pâles",
+   "status": "CONNU",
+   "bbox": [
+    1049.7,
+    789.2,
+    1101.2,
+    821.4
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.etat_des_conjonctives.t3_m7",
+   "type": "text",
+   "value": "Normales",
+   "status": "CONNU",
+   "bbox": [
+    1174.4,
+    789.1,
+    1262.2,
+    822.8
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.etat_des_conjonctives.t3_m8",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.etat_des_conjonctives.t3_m9",
+   "type": "text",
+   "value": "Normales",
+   "status": "CONNU",
+   "bbox": [
+    1423.4,
+    790.4,
+    1510.9,
+    822.9
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.examen_au_speculum.t1_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.examen_au_speculum.t1_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.examen_au_speculum.t1_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.examen_au_speculum.t2_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": [
+    801.1,
+    1086.8,
+    814.5,
+    1116.6
+   ],
+   "label_bbox": null,
+   "raw": "–"
+  },
+  {
+   "key": "visites.examen_au_speculum.t2_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": [
+    924.5,
+    1088.1,
+    939.6,
+    1119.3
+   ],
+   "label_bbox": null,
+   "raw": "–"
+  },
+  {
+   "key": "visites.examen_au_speculum.t2_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": [
+    1050.1,
+    1086.8,
+    1063.4,
+    1116.5
+   ],
+   "label_bbox": null,
+   "raw": "–"
+  },
+  {
+   "key": "visites.examen_au_speculum.t3_m7",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": [
+    1174.5,
+    1090.1,
+    1187.6,
+    1119.2
+   ],
+   "label_bbox": null,
+   "raw": "–"
+  },
+  {
+   "key": "visites.examen_au_speculum.t3_m8",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.examen_au_speculum.t3_m9",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": [
+    1422.9,
+    1088.0,
+    1437.4,
+    1119.0
+   ],
+   "label_bbox": null,
+   "raw": "–"
+  },
+  {
+   "key": "visites.examen_des_seins.t1_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.examen_des_seins.t1_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.examen_des_seins.t1_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.examen_des_seins.t2_v1",
+   "type": "text",
+   "value": "Normaux",
+   "status": "CONNU",
+   "bbox": [
+    801.0,
+    838.4,
+    884.4,
+    871.2
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.examen_des_seins.t2_v2",
+   "type": "text",
+   "value": "Normaux",
+   "status": "CONNU",
+   "bbox": [
+    925.4,
+    839.2,
+    1008.4,
+    873.1
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.examen_des_seins.t2_v3",
+   "type": "text",
+   "value": "Normaux",
+   "status": "CONNU",
+   "bbox": [
+    1048.9,
+    838.8,
+    1132.7,
+    871.1
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.examen_des_seins.t3_m7",
+   "type": "text",
+   "value": "Normaux",
+   "status": "CONNU",
+   "bbox": [
+    1174.4,
+    838.3,
+    1259.2,
+    871.4
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.examen_des_seins.t3_m8",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.examen_des_seins.t3_m9",
+   "type": "text",
+   "value": "Normaux",
+   "status": "CONNU",
+   "bbox": [
+    1423.3,
+    838.3,
+    1507.1,
+    871.5
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.examen_fait_par.t1_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.examen_fait_par.t1_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.examen_fait_par.t1_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.examen_fait_par.t2_v1",
+   "type": "text",
+   "value": "Sage-femme",
+   "status": "CONNU",
+   "bbox": [
+    801.2,
+    2026.5,
+    911.8,
+    2059.1
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.examen_fait_par.t2_v2",
+   "type": "text",
+   "value": "Dr Chakir",
+   "status": "CONNU",
+   "bbox": [
+    925.7,
+    2025.6,
+    1027.2,
+    2058.4
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.examen_fait_par.t2_v3",
+   "type": "text",
+   "value": "Dr Chakir",
+   "status": "CONNU",
+   "bbox": [
+    1050.1,
+    2025.8,
+    1153.0,
+    2058.5
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.examen_fait_par.t3_m7",
+   "type": "text",
+   "value": "Dr Benjelloun",
+   "status": "CONNU",
+   "bbox": [
+    1174.7,
+    2029.0,
+    1284.9,
+    2057.1
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.examen_fait_par.t3_m8",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.examen_fait_par.t3_m9",
+   "type": "text",
+   "value": "Inf. Zahra",
+   "status": "CONNU",
+   "bbox": [
+    1423.8,
+    2026.5,
+    1535.1,
+    2058.0
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.fer.t1_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.fer.t1_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.fer.t1_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.fer.t2_v1",
+   "type": "text",
+   "value": "Oui",
+   "status": "CONNU",
+   "bbox": [
+    801.2,
+    1929.4,
+    829.2,
+    1960.7
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.fer.t2_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.fer.t2_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.fer.t3_m7",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.fer.t3_m8",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.fer.t3_m9",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.glucosurie.t1_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.glucosurie.t1_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.glucosurie.t1_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.glucosurie.t2_v1",
+   "type": "text",
+   "value": "Neg",
+   "status": "CONNU",
+   "bbox": [
+    801.1,
+    1336.0,
+    835.4,
+    1366.6
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.glucosurie.t2_v2",
+   "type": "text",
+   "value": "Neg",
+   "status": "CONNU",
+   "bbox": [
+    925.4,
+    1334.8,
+    960.3,
+    1366.5
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.glucosurie.t2_v3",
+   "type": "text",
+   "value": "Neg",
+   "status": "CONNU",
+   "bbox": [
+    1050.0,
+    1334.4,
+    1085.1,
+    1365.2
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.glucosurie.t3_m7",
+   "type": "text",
+   "value": "Neg",
+   "status": "CONNU",
+   "bbox": [
+    1174.5,
+    1333.1,
+    1209.9,
+    1365.2
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.glucosurie.t3_m8",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.glucosurie.t3_m9",
+   "type": "text",
+   "value": "Neg",
+   "status": "CONNU",
+   "bbox": [
+    1423.0,
+    1333.4,
+    1458.1,
+    1363.6
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.hemoglobine.t1_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.hemoglobine.t1_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.hemoglobine.t1_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.hemoglobine.t2_v1",
+   "type": "text",
+   "value": "9.6 g/dL",
+   "status": "CONNU",
+   "bbox": [
+    800.5,
+    1681.1,
+    880.1,
+    1712.8
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.hemoglobine.t2_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.hemoglobine.t2_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.hemoglobine.t3_m7",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.hemoglobine.t3_m8",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.hemoglobine.t3_m9",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.hu_cm.t1_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.hu_cm.t1_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.hu_cm.t1_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.hu_cm.t2_v1",
+   "type": "text",
+   "value": "12",
+   "status": "CONNU",
+   "bbox": [
+    801.1,
+    988.0,
+    820.9,
+    1018.1
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.hu_cm.t2_v2",
+   "type": "text",
+   "value": "18",
+   "status": "CONNU",
+   "bbox": [
+    925.1,
+    988.1,
+    946.3,
+    1019.3
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.hu_cm.t2_v3",
+   "type": "text",
+   "value": "24",
+   "status": "CONNU",
+   "bbox": [
+    1049.9,
+    987.5,
+    1072.7,
+    1019.0
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.hu_cm.t3_m7",
+   "type": "text",
+   "value": "27",
+   "status": "CONNU",
+   "bbox": [
+    1173.8,
+    987.8,
+    1197.7,
+    1020.1
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.hu_cm.t3_m8",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.hu_cm.t3_m9",
+   "type": "text",
+   "value": "34",
+   "status": "CONNU",
+   "bbox": [
+    1423.4,
+    988.8,
+    1445.6,
+    1019.7
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.mouvements_actifs.t1_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.mouvements_actifs.t1_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.mouvements_actifs.t1_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.mouvements_actifs.t2_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": [
+    800.7,
+    940.3,
+    815.7,
+    971.0
+   ],
+   "label_bbox": null,
+   "raw": "–"
+  },
+  {
+   "key": "visites.mouvements_actifs.t2_v2",
+   "type": "text",
+   "value": "Oui",
+   "status": "CONNU",
+   "bbox": [
+    925.5,
+    939.0,
+    954.1,
+    971.5
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.mouvements_actifs.t2_v3",
+   "type": "text",
+   "value": "Oui",
+   "status": "CONNU",
+   "bbox": [
+    1049.9,
+    936.9,
+    1077.5,
+    969.7
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.mouvements_actifs.t3_m7",
+   "type": "text",
+   "value": "Oui",
+   "status": "CONNU",
+   "bbox": [
+    1174.2,
+    938.4,
+    1202.6,
+    971.8
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.mouvements_actifs.t3_m8",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.mouvements_actifs.t3_m9",
+   "type": "text",
+   "value": "Oui",
+   "status": "CONNU",
+   "bbox": [
+    1423.0,
+    938.0,
+    1451.3,
+    971.0
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.oedemes.t1_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.oedemes.t1_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.oedemes.t1_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.oedemes.t2_v1",
+   "type": "text",
+   "value": "Non",
+   "status": "CONNU",
+   "bbox": [
+    801.1,
+    888.6,
+    834.2,
+    919.6
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.oedemes.t2_v2",
+   "type": "text",
+   "value": "Non",
+   "status": "CONNU",
+   "bbox": [
+    925.3,
+    888.1,
+    959.1,
+    922.0
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.oedemes.t2_v3",
+   "type": "text",
+   "value": "Non",
+   "status": "CONNU",
+   "bbox": [
+    1049.8,
+    889.9,
+    1083.3,
+    921.6
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.oedemes.t3_m7",
+   "type": "text",
+   "value": "Non",
+   "status": "CONNU",
+   "bbox": [
+    1174.4,
+    888.7,
+    1208.0,
+    919.9
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.oedemes.t3_m8",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.oedemes.t3_m9",
+   "type": "text",
+   "value": "Non",
+   "status": "CONNU",
+   "bbox": [
+    1423.2,
+    889.0,
+    1456.5,
+    920.9
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.plaquettes.t1_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.plaquettes.t1_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.plaquettes.t1_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.plaquettes.t2_v1",
+   "type": "text",
+   "value": "305k",
+   "status": "CONNU",
+   "bbox": [
+    801.1,
+    1729.3,
+    845.2,
+    1762.1
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.plaquettes.t2_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.plaquettes.t2_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.plaquettes.t3_m7",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.plaquettes.t3_m8",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.plaquettes.t3_m9",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.poids_kg.t1_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.poids_kg.t1_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.poids_kg.t1_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.poids_kg.t2_v1",
+   "type": "text",
+   "value": "54.7",
+   "status": "CONNU",
+   "bbox": [
+    801.0,
+    641.9,
+    839.5,
+    674.5
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.poids_kg.t2_v2",
+   "type": "text",
+   "value": "57.7",
+   "status": "CONNU",
+   "bbox": [
+    925.4,
+    640.4,
+    964.2,
+    674.1
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.poids_kg.t2_v3",
+   "type": "text",
+   "value": "59.6",
+   "status": "CONNU",
+   "bbox": [
+    1049.9,
+    640.9,
+    1085.7,
+    673.3
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.poids_kg.t3_m7",
+   "type": "text",
+   "value": "60.0",
+   "status": "CONNU",
+   "bbox": [
+    1174.3,
+    641.1,
+    1209.1,
+    673.5
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.poids_kg.t3_m8",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.poids_kg.t3_m9",
+   "type": "text",
+   "value": "62.7",
+   "status": "CONNU",
+   "bbox": [
+    1423.2,
+    641.9,
+    1459.6,
+    674.5
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.rai_si_rh_negatif.t1_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.rai_si_rh_negatif.t1_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.rai_si_rh_negatif.t1_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.rai_si_rh_negatif.t2_v1",
+   "type": "text",
+   "value": "Neg",
+   "status": "CONNU",
+   "bbox": [
+    800.4,
+    1828.5,
+    835.5,
+    1861.0
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.rai_si_rh_negatif.t2_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.rai_si_rh_negatif.t2_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.rai_si_rh_negatif.t3_m7",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.rai_si_rh_negatif.t3_m8",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.rai_si_rh_negatif.t3_m9",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.rendez_vous.t1_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.rendez_vous.t1_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.rendez_vous.t1_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.rendez_vous.t2_v1",
+   "type": "text",
+   "value": "13/12/2025",
+   "status": "CONNU",
+   "bbox": [
+    800.9,
+    393.6,
+    902.0,
+    428.0
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.rendez_vous.t2_v2",
+   "type": "text",
+   "value": "23/01/2026",
+   "status": "CONNU",
+   "bbox": [
+    924.5,
+    394.3,
+    1026.1,
+    427.4
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.rendez_vous.t2_v3",
+   "type": "text",
+   "value": "07/03/2026",
+   "status": "CONNU",
+   "bbox": [
+    1049.5,
+    394.0,
+    1154.3,
+    427.4
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.rendez_vous.t3_m7",
+   "type": "text",
+   "value": "26/03/2026",
+   "status": "CONNU",
+   "bbox": [
+    1174.1,
+    393.0,
+    1276.0,
+    427.6
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.rendez_vous.t3_m8",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.rendez_vous.t3_m9",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": [
+    1423.3,
+    394.1,
+    1436.6,
+    423.9
+   ],
+   "label_bbox": null,
+   "raw": "–"
+  },
+  {
+   "key": "visites.rubeole.t1_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.rubeole.t1_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.rubeole.t1_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.rubeole.t2_v1",
+   "type": "text",
+   "value": "Immune",
+   "status": "CONNU",
+   "bbox": [
+    800.6,
+    1432.3,
+    879.7,
+    1465.3
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.rubeole.t2_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.rubeole.t2_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.rubeole.t3_m7",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.rubeole.t3_m8",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.rubeole.t3_m9",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.serologie_vih.t1_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.serologie_vih.t1_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.serologie_vih.t1_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.serologie_vih.t2_v1",
+   "type": "text",
+   "value": "Neg",
+   "status": "CONNU",
+   "bbox": [
+    801.2,
+    1632.2,
+    835.4,
+    1663.7
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.serologie_vih.t2_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.serologie_vih.t2_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.serologie_vih.t3_m7",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.serologie_vih.t3_m8",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.serologie_vih.t3_m9",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.syphilis_tpha_vdrl.t1_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.syphilis_tpha_vdrl.t1_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.syphilis_tpha_vdrl.t1_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.syphilis_tpha_vdrl.t2_v1",
+   "type": "text",
+   "value": "Neg",
+   "status": "CONNU",
+   "bbox": [
+    801.2,
+    1531.6,
+    836.5,
+    1563.2
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.syphilis_tpha_vdrl.t2_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.syphilis_tpha_vdrl.t2_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.syphilis_tpha_vdrl.t3_m7",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.syphilis_tpha_vdrl.t3_m8",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.syphilis_tpha_vdrl.t3_m9",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.ta.t1_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.ta.t1_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.ta.t1_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.ta.t2_v1",
+   "type": "text",
+   "value": "109/60",
+   "status": "CONNU",
+   "bbox": [
+    800.8,
+    690.9,
+    861.2,
+    723.3
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.ta.t2_v2",
+   "type": "text",
+   "value": "117/60",
+   "status": "CONNU",
+   "bbox": [
+    924.9,
+    691.2,
+    983.1,
+    724.5
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.ta.t2_v3",
+   "type": "text",
+   "value": "101/65",
+   "status": "CONNU",
+   "bbox": [
+    1049.4,
+    691.2,
+    1106.9,
+    722.4
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.ta.t3_m7",
+   "type": "text",
+   "value": "114/64",
+   "status": "CONNU",
+   "bbox": [
+    1173.8,
+    691.7,
+    1234.4,
+    723.9
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.ta.t3_m8",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.ta.t3_m9",
+   "type": "text",
+   "value": "111/77",
+   "status": "CONNU",
+   "bbox": [
+    1423.1,
+    690.9,
+    1480.7,
+    723.0
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.toxoplasmose.t1_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.toxoplasmose.t1_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.toxoplasmose.t1_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.toxoplasmose.t2_v1",
+   "type": "text",
+   "value": "Non immune",
+   "status": "CONNU",
+   "bbox": [
+    800.9,
+    1481.4,
+    913.1,
+    1515.2
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.toxoplasmose.t2_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.toxoplasmose.t2_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.toxoplasmose.t3_m7",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.toxoplasmose.t3_m8",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.toxoplasmose.t3_m9",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.tv_bassin.t1_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.tv_bassin.t1_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.tv_bassin.t1_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.tv_bassin.t2_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": [
+    800.3,
+    1236.7,
+    815.3,
+    1268.2
+   ],
+   "label_bbox": null,
+   "raw": "–"
+  },
+  {
+   "key": "visites.tv_bassin.t2_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": [
+    925.5,
+    1237.7,
+    939.6,
+    1268.1
+   ],
+   "label_bbox": null,
+   "raw": "–"
+  },
+  {
+   "key": "visites.tv_bassin.t2_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": [
+    1049.8,
+    1234.0,
+    1063.9,
+    1264.9
+   ],
+   "label_bbox": null,
+   "raw": "–"
+  },
+  {
+   "key": "visites.tv_bassin.t3_m7",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": [
+    1173.6,
+    1234.8,
+    1188.3,
+    1265.3
+   ],
+   "label_bbox": null,
+   "raw": "–"
+  },
+  {
+   "key": "visites.tv_bassin.t3_m8",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.tv_bassin.t3_m9",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": [
+    1423.4,
+    1235.8,
+    1436.8,
+    1264.6
+   ],
+   "label_bbox": null,
+   "raw": "–"
+  },
+  {
+   "key": "visites.tv_etat_du_col.t1_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.tv_etat_du_col.t1_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.tv_etat_du_col.t1_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.tv_etat_du_col.t2_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": [
+    800.5,
+    1135.7,
+    814.8,
+    1166.1
+   ],
+   "label_bbox": null,
+   "raw": "–"
+  },
+  {
+   "key": "visites.tv_etat_du_col.t2_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": [
+    925.5,
+    1135.0,
+    939.9,
+    1166.2
+   ],
+   "label_bbox": null,
+   "raw": "–"
+  },
+  {
+   "key": "visites.tv_etat_du_col.t2_v3",
+   "type": "text",
+   "value": "Fermé",
+   "status": "CONNU",
+   "bbox": [
+    1049.9,
+    1136.0,
+    1106.1,
+    1168.2
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.tv_etat_du_col.t3_m7",
+   "type": "text",
+   "value": "Fermé",
+   "status": "CONNU",
+   "bbox": [
+    1174.3,
+    1137.7,
+    1231.1,
+    1169.4
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.tv_etat_du_col.t3_m8",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.tv_etat_du_col.t3_m9",
+   "type": "text",
+   "value": "Fermé",
+   "status": "CONNU",
+   "bbox": [
+    1423.5,
+    1136.3,
+    1479.1,
+    1168.0
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.tv_presentation.t1_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.tv_presentation.t1_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.tv_presentation.t1_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.tv_presentation.t2_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": [
+    800.7,
+    1185.5,
+    815.0,
+    1216.4
+   ],
+   "label_bbox": null,
+   "raw": "–"
+  },
+  {
+   "key": "visites.tv_presentation.t2_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": [
+    924.8,
+    1183.9,
+    939.7,
+    1215.2
+   ],
+   "label_bbox": null,
+   "raw": "–"
+  },
+  {
+   "key": "visites.tv_presentation.t2_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": [
+    1049.9,
+    1187.8,
+    1064.3,
+    1218.2
+   ],
+   "label_bbox": null,
+   "raw": "–"
+  },
+  {
+   "key": "visites.tv_presentation.t3_m7",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": [
+    1174.4,
+    1187.6,
+    1188.9,
+    1218.5
+   ],
+   "label_bbox": null,
+   "raw": "–"
+  },
+  {
+   "key": "visites.tv_presentation.t3_m8",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.tv_presentation.t3_m9",
+   "type": "text",
+   "value": "Céphalique",
+   "status": "CONNU",
+   "bbox": [
+    1423.2,
+    1184.3,
+    1527.0,
+    1219.2
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.venue_le.t1_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.venue_le.t1_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.venue_le.t1_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.venue_le.t2_v1",
+   "type": "text",
+   "value": "15/11/2025",
+   "status": "CONNU",
+   "bbox": [
+    800.9,
+    443.3,
+    898.3,
+    476.5
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.venue_le.t2_v2",
+   "type": "text",
+   "value": "26/12/2025",
+   "status": "CONNU",
+   "bbox": [
+    925.2,
+    443.4,
+    1025.4,
+    476.7
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.venue_le.t2_v3",
+   "type": "text",
+   "value": "07/02/2026",
+   "status": "CONNU",
+   "bbox": [
+    1049.6,
+    442.5,
+    1154.7,
+    476.9
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.venue_le.t3_m7",
+   "type": "text",
+   "value": "26/02/2026",
+   "status": "CONNU",
+   "bbox": [
+    1174.0,
+    442.8,
+    1276.6,
+    476.7
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.venue_le.t3_m8",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.venue_le.t3_m9",
+   "type": "text",
+   "value": "19/04/2026",
+   "status": "CONNU",
+   "bbox": [
+    1423.3,
+    442.3,
+    1527.0,
+    476.1
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.visites_de_relance.t1_v1",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.visites_de_relance.t1_v2",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.visites_de_relance.t1_v3",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.visites_de_relance.t2_v1",
+   "type": "text",
+   "value": "Non",
+   "status": "CONNU",
+   "bbox": [
+    800.8,
+    494.2,
+    834.3,
+    525.0
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.visites_de_relance.t2_v2",
+   "type": "text",
+   "value": "Non",
+   "status": "CONNU",
+   "bbox": [
+    925.0,
+    492.4,
+    958.8,
+    524.9
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.visites_de_relance.t2_v3",
+   "type": "text",
+   "value": "Oui",
+   "status": "CONNU",
+   "bbox": [
+    1049.8,
+    493.5,
+    1077.5,
+    524.0
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.visites_de_relance.t3_m7",
+   "type": "text",
+   "value": "Non",
+   "status": "CONNU",
+   "bbox": [
+    1173.2,
+    493.4,
+    1208.1,
+    524.3
+   ],
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.visites_de_relance.t3_m8",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": null,
+   "raw": null
+  },
+  {
+   "key": "visites.visites_de_relance.t3_m9",
+   "type": "text",
+   "value": "Non",
+   "status": "CONNU",
+   "bbox": [
+    1423.1,
+    492.7,
+    1456.9,
+    525.9
+   ],
+   "label_bbox": null,
+   "raw": null
+  }
+ ]
+}

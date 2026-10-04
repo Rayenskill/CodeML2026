@@ -1,0 +1,8 @@
+smooth: passed
+flexible: passed
+uniform: passed
+spline_blend: passed
+training_threshold: passed
+regularized: passed
+less_regularized: passed
+All new models verified; all previously scored files preserved.

@@ -1,0 +1,100 @@
+{
+  "models": [
+    {
+      "model": "tensor",
+      "rows": 4000,
+      "grants": 1600,
+      "prediction_sha256": "3348c8cfc65b0a624903b606a48695c208bcc5166346cebc0d6f4dc9b755cb82",
+      "model_sha256": "01218963ba68293377f851f23aeb0216aa1c35f4c77f2bb71f8ae2192bde383d",
+      "reproduces_exported_predictions": true,
+      "ignores_identifiers_and_supplied_labels": true,
+      "single_applicant_and_order_invariance": true,
+      "responds_to_new_academic_profiles": true
+    },
+    {
+      "model": "quadratic",
+      "rows": 4000,
+      "grants": 1600,
+      "prediction_sha256": "ffad71ce1999ecfce944bdc826fcb15ae80a366c05cb8c6551064b4e8aad99c2",
+      "model_sha256": "b98278925079154a560ceab23c64b4c495d1686c8adbf5b2be10f99ff07d118d",
+      "reproduces_exported_predictions": true,
+      "ignores_identifiers_and_supplied_labels": true,
+      "single_applicant_and_order_invariance": true,
+      "responds_to_new_academic_profiles": true
+    },
+    {
+      "model": "regional_merit",
+      "rows": 4000,
+      "grants": 1600,
+      "prediction_sha256": "8239f5abf33706045e577adede405e699777687480e154f81b17293001e4e338",
+      "model_sha256": "e8cd43025081a42c0a86023093cfdaf832de3b44b42cc346486f81f8084c2a2f",
+      "reproduces_exported_predictions": true,
+      "ignores_identifiers_and_supplied_labels": true,
+      "single_applicant_and_order_invariance": true,
+      "responds_to_new_academic_profiles": true
+    },
+    {
+      "model": "legitimate_context",
+      "rows": 4000,
+      "grants": 1600,
+      "prediction_sha256": "c26cfd679e877a077d371522e6e685a320b8d2563db9b4ab797a3fe110906c1c",
+      "model_sha256": "46365cc14663a1b5b77bb8927fbe26472de863db519211761e6df501e3e16ba8",
+      "reproduces_exported_predictions": true,
+      "ignores_identifiers_and_supplied_labels": true,
+      "single_applicant_and_order_invariance": true,
+      "responds_to_new_academic_profiles": true
+    },
+    {
+      "model": "region_correction_95",
+      "rows": 4000,
+      "grants": 1600,
+      "prediction_sha256": "d9c8339c939cee904e75b473e34f69b213c0105c9c74967926b19eb70a2c1eae",
+      "model_sha256": "f5d83ed60a039ed66e65f7d0b4e1b0fac6d5436d2542740f62d957654d5ee405",
+      "reproduces_exported_predictions": true,
+      "ignores_identifiers_and_supplied_labels": true,
+      "single_applicant_and_order_invariance": true,
+      "responds_to_new_academic_profiles": true
+    },
+    {
+      "model": "region_correction_90",
+      "rows": 4000,
+      "grants": 1600,
+      "prediction_sha256": "ab614a5976c07d89da11d1e803fcff419f832a340893ae705f4d17b6ee239057",
+      "model_sha256": "d1eb370995d0914fc3eaa725212da4c34805a8aae8ee3df34a0624a27f531d60",
+      "reproduces_exported_predictions": true,
+      "ignores_identifiers_and_supplied_labels": true,
+      "single_applicant_and_order_invariance": true,
+      "responds_to_new_academic_profiles": true
+    },
+    {
+      "model": "region_correction_85",
+      "rows": 4000,
+      "grants": 1600,
+      "prediction_sha256": "eb4aac3abf33d60dfbd73d04cab2ba50cdb9cba64d80baaa482040c46bfbc71f",
+      "model_sha256": "f0c4d557bf4442a6c8e5ee3f6c8e17a576f35a41c2672fc398fff8c1581c67a2",
+      "reproduces_exported_predictions": true,
+      "ignores_identifiers_and_supplied_labels": true,
+      "single_applicant_and_order_invariance": true,
+      "responds_to_new_academic_profiles": true
+    },
+    {
+      "model": "regional_standardized",
+      "rows": 4000,
+      "grants": 1600,
+      "prediction_sha256": "ab6fb045b017d123a23c74b171f21e19072e514c79425a1094739bb4134a132d",
+      "model_sha256": "07829cdfc62fcccc6c5b5ccfe377caa144fb8a8066e8a6ef01d101e9b477cde5",
+      "reproduces_exported_predictions": true,
+      "ignores_identifiers_and_supplied_labels": true,
+      "single_applicant_and_order_invariance": true,
+      "responds_to_new_academic_profiles": true
+    }
+  ],
+  "previously_scored_files_unchanged": true,
+  "best_verified_accuracy_percent": 94.88,
+  "new_models_reference_accuracy_verified": false,
+  "source_sha256": {
+    "model.py": "341a88a84700194c7a0d4a0f51c5004c69509dd2e46438ebe9d91703e07fe7ef",
+    "structural.py": "bb9ac8d74b0b1a980bcde3d1ccc2089891ec543a08812518af3e9cd18b9da014",
+    "verify_structural.py": "25534f5d9e40d69e84b5bfcf9f1063042424c0a17ca34ec4a2c70e0fda05d3a6"
+  }
+}

@@ -1,0 +1,12 @@
+test_counterfactual_scoring_neutralizes_nuisance_features (__main__.ModelBehaviorTests.test_counterfactual_scoring_neutralizes_nuisance_features) ... ok
+test_holdout_and_eval_excluded_from_development_split (__main__.ModelBehaviorTests.test_holdout_and_eval_excluded_from_development_split) ... ok
+test_identifiers_and_supplied_labels_do_not_affect_scores (__main__.ModelBehaviorTests.test_identifiers_and_supplied_labels_do_not_affect_scores) ... ok
+test_invalid_input_is_rejected (__main__.ModelBehaviorTests.test_invalid_input_is_rejected) ... ok
+test_score_is_independent_of_cohort_and_order (__main__.ModelBehaviorTests.test_score_is_independent_of_cohort_and_order) ... ok
+test_scores_respond_to_new_academic_profiles (__main__.ModelBehaviorTests.test_scores_respond_to_new_academic_profiles) ... ok
+test_serialization_and_export_reproduce_predictions (__main__.ModelBehaviorTests.test_serialization_and_export_reproduce_predictions) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 8.249s
+
+OK

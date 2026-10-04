@@ -1,0 +1,817 @@
+{
+  "backtest": [
+    {
+      "year": 2021,
+      "vintage": "december",
+      "model": "structural",
+      "predicted_effective": 3.148568170803645,
+      "actual_effective": 3.54344566547955,
+      "error_effective": -0.3948774946759048,
+      "predicted_contract": 2.948218938680304,
+      "actual_contract": 4.456558579613312,
+      "error_contract": -1.5083396409330083
+    },
+    {
+      "year": 2022,
+      "vintage": "december",
+      "model": "structural",
+      "predicted_effective": 1.4165732288954125,
+      "actual_effective": 4.586446551143397,
+      "error_effective": -3.1698733222479847,
+      "predicted_contract": 1.3474187305541385,
+      "actual_contract": 5.396243874711515,
+      "error_contract": -4.048825144157377
+    },
+    {
+      "year": 2023,
+      "vintage": "december",
+      "model": "structural",
+      "predicted_effective": 2.071906041481464,
+      "actual_effective": 2.0193889435748735,
+      "error_effective": 0.052517097906590315,
+      "predicted_contract": 2.0976414646028587,
+      "actual_contract": 2.288101634119122,
+      "error_contract": -0.1904601695162631
+    },
+    {
+      "year": 2024,
+      "vintage": "december",
+      "model": "structural",
+      "predicted_effective": 1.7811292709857707,
+      "actual_effective": 1.7715594536235724,
+      "error_effective": 0.009569817362198307,
+      "predicted_contract": 3.6385963165379067,
+      "actual_contract": 3.389003066638896,
+      "error_contract": 0.24959324989901077
+    },
+    {
+      "year": 2025,
+      "vintage": "december",
+      "model": "structural",
+      "predicted_effective": 3.755598776981328,
+      "actual_effective": 3.57516678765748,
+      "error_effective": 0.18043198932384819,
+      "predicted_contract": 6.298028111766296,
+      "actual_contract": 7.044632936642781,
+      "error_contract": -0.7466048248764849
+    },
+    {
+      "year": 2021,
+      "vintage": "january",
+      "model": "structural",
+      "predicted_effective": 1.2473011994228456,
+      "actual_effective": 3.54344566547955,
+      "error_effective": -2.2961444660567043,
+      "predicted_contract": 0.9682441867726155,
+      "actual_contract": 4.456558579613312,
+      "error_contract": -3.4883143928406968
+    },
+    {
+      "year": 2022,
+      "vintage": "january",
+      "model": "structural",
+      "predicted_effective": 1.700678586887594,
+      "actual_effective": 4.586446551143397,
+      "error_effective": -2.885767964255803,
+      "predicted_contract": 1.6006314868926637,
+      "actual_contract": 5.396243874711515,
+      "error_contract": -3.795612387818851
+    },
+    {
+      "year": 2023,
+      "vintage": "january",
+      "model": "structural",
+      "predicted_effective": 2.287742559116346,
+      "actual_effective": 2.0193889435748735,
+      "error_effective": 0.2683536155414723,
+      "predicted_contract": 2.53811083970969,
+      "actual_contract": 2.288101634119122,
+      "error_contract": 0.25000920559056805
+    },
+    {
+      "year": 2024,
+      "vintage": "january",
+      "model": "structural",
+      "predicted_effective": 2.1115886595431066,
+      "actual_effective": 1.7715594536235724,
+      "error_effective": 0.3400292059195342,
+      "predicted_contract": 4.233040097058379,
+      "actual_contract": 3.389003066638896,
+      "error_contract": 0.8440370304194831
+    },
+    {
+      "year": 2025,
+      "vintage": "january",
+      "model": "structural",
+      "predicted_effective": 3.8809602467937854,
+      "actual_effective": 3.57516678765748,
+      "error_effective": 0.3057934591363054,
+      "predicted_contract": 6.399606454700352,
+      "actual_contract": 7.044632936642781,
+      "error_contract": -0.6450264819424287
+    },
+    {
+      "year": 2021,
+      "vintage": "october",
+      "model": "structural",
+      "predicted_effective": 1.2473011994228456,
+      "actual_effective": 3.54344566547955,
+      "error_effective": -2.2961444660567043,
+      "predicted_contract": 0.9682441867726155,
+      "actual_contract": 4.456558579613312,
+      "error_contract": -3.4883143928406968
+    },
+    {
+      "year": 2022,
+      "vintage": "october",
+      "model": "structural",
+      "predicted_effective": 1.700678586887594,
+      "actual_effective": 4.586446551143397,
+      "error_effective": -2.885767964255803,
+      "predicted_contract": 1.6006314868926637,
+      "actual_contract": 5.396243874711515,
+      "error_contract": -3.795612387818851
+    },
+    {
+      "year": 2023,
+      "vintage": "october",
+      "model": "structural",
+      "predicted_effective": 2.287742559116346,
+      "actual_effective": 2.0193889435748735,
+      "error_effective": 0.2683536155414723,
+      "predicted_contract": 2.53811083970969,
+      "actual_contract": 2.288101634119122,
+      "error_contract": 0.25000920559056805
+    },
+    {
+      "year": 2024,
+      "vintage": "october",
+      "model": "structural",
+      "predicted_effective": 2.1115886595431066,
+      "actual_effective": 1.7715594536235724,
+      "error_effective": 0.3400292059195342,
+      "predicted_contract": 4.233040097058379,
+      "actual_contract": 3.389003066638896,
+      "error_contract": 0.8440370304194831
+    },
+    {
+      "year": 2025,
+      "vintage": "october",
+      "model": "structural",
+      "predicted_effective": 3.8809602467937854,
+      "actual_effective": 3.57516678765748,
+      "error_effective": 0.3057934591363054,
+      "predicted_contract": 6.399606454700352,
+      "actual_contract": 7.044632936642781,
+      "error_contract": -0.6450264819424287
+    },
+    {
+      "year": 2021,
+      "vintage": "december",
+      "model": "ensemble",
+      "predicted_effective": 2.2351408185788624,
+      "actual_effective": 3.54344566547955,
+      "error_effective": -1.3083048469006875,
+      "predicted_contract": 2.6774648077500447,
+      "actual_contract": 4.456558579613312,
+      "error_contract": -1.7790937718632676
+    },
+    {
+      "year": 2022,
+      "vintage": "december",
+      "model": "ensemble",
+      "predicted_effective": 3.511543661141747,
+      "actual_effective": 4.586446551143397,
+      "error_effective": -1.07490289000165,
+      "predicted_contract": 3.920739651980133,
+      "actual_contract": 5.396243874711515,
+      "error_contract": -1.4755042227313817
+    },
+    {
+      "year": 2023,
+      "vintage": "december",
+      "model": "ensemble",
+      "predicted_effective": 4.2087246441962485,
+      "actual_effective": 2.0193889435748735,
+      "error_effective": 2.189335700621375,
+      "predicted_contract": 4.865047800416508,
+      "actual_contract": 2.288101634119122,
+      "error_contract": 2.576946166297386
+    },
+    {
+      "year": 2024,
+      "vintage": "december",
+      "model": "ensemble",
+      "predicted_effective": 3.718762063596648,
+      "actual_effective": 1.7715594536235724,
+      "error_effective": 1.9472026099730755,
+      "predicted_contract": 3.936123642114606,
+      "actual_contract": 3.389003066638896,
+      "error_contract": 0.5471205754757102
+    },
+    {
+      "year": 2025,
+      "vintage": "december",
+      "model": "ensemble",
+      "predicted_effective": 4.043905975501428,
+      "actual_effective": 3.57516678765748,
+      "error_effective": 0.46873918784394775,
+      "predicted_contract": 5.3744281313229685,
+      "actual_contract": 7.044632936642781,
+      "error_contract": -1.6702048053198126
+    },
+    {
+      "year": 2021,
+      "vintage": "january",
+      "model": "ensemble",
+      "predicted_effective": 1.5220478705419427,
+      "actual_effective": 3.54344566547955,
+      "error_effective": -2.021397794937607,
+      "predicted_contract": 1.9047879784692259,
+      "actual_contract": 4.456558579613312,
+      "error_contract": -2.5517706011440864
+    },
+    {
+      "year": 2022,
+      "vintage": "january",
+      "model": "ensemble",
+      "predicted_effective": 3.4964095271604934,
+      "actual_effective": 4.586446551143397,
+      "error_effective": -1.0900370239829038,
+      "predicted_contract": 3.9060472975218667,
+      "actual_contract": 5.396243874711515,
+      "error_contract": -1.4901965771896482
+    },
+    {
+      "year": 2023,
+      "vintage": "january",
+      "model": "ensemble",
+      "predicted_effective": 3.984846791777097,
+      "actual_effective": 2.0193889435748735,
+      "error_effective": 1.9654578482022234,
+      "predicted_contract": 4.6157867881755825,
+      "actual_contract": 2.288101634119122,
+      "error_contract": 2.3276851540564607
+    },
+    {
+      "year": 2024,
+      "vintage": "january",
+      "model": "ensemble",
+      "predicted_effective": 3.91021266068311,
+      "actual_effective": 1.7715594536235724,
+      "error_effective": 2.1386532070595377,
+      "predicted_contract": 4.147734792353943,
+      "actual_contract": 3.389003066638896,
+      "error_contract": 0.7587317257150472
+    },
+    {
+      "year": 2025,
+      "vintage": "january",
+      "model": "ensemble",
+      "predicted_effective": 4.046095319381621,
+      "actual_effective": 3.57516678765748,
+      "error_effective": 0.47092853172414095,
+      "predicted_contract": 5.340489582380331,
+      "actual_contract": 7.044632936642781,
+      "error_contract": -1.7041433542624498
+    },
+    {
+      "year": 2021,
+      "vintage": "october",
+      "model": "ensemble",
+      "predicted_effective": 1.6207208739189904,
+      "actual_effective": 3.54344566547955,
+      "error_effective": -1.9227247915605594,
+      "predicted_contract": 1.9300575250509309,
+      "actual_contract": 4.456558579613312,
+      "error_contract": -2.5265010545623814
+    },
+    {
+      "year": 2022,
+      "vintage": "october",
+      "model": "ensemble",
+      "predicted_effective": 3.5230570858781007,
+      "actual_effective": 4.586446551143397,
+      "error_effective": -1.0633894652652964,
+      "predicted_contract": 3.932384115874065,
+      "actual_contract": 5.396243874711515,
+      "error_contract": -1.46385975883745
+    },
+    {
+      "year": 2023,
+      "vintage": "october",
+      "model": "ensemble",
+      "predicted_effective": 4.100281617472612,
+      "actual_effective": 2.0193889435748735,
+      "error_effective": 2.080892673897739,
+      "predicted_contract": 4.673776320203762,
+      "actual_contract": 2.288101634119122,
+      "error_contract": 2.3856746860846405
+    },
+    {
+      "year": 2024,
+      "vintage": "october",
+      "model": "ensemble",
+      "predicted_effective": 4.174532306581424,
+      "actual_effective": 1.7715594536235724,
+      "error_effective": 2.402972852957852,
+      "predicted_contract": 4.381707346870014,
+      "actual_contract": 3.389003066638896,
+      "error_contract": 0.9927042802311181
+    },
+    {
+      "year": 2025,
+      "vintage": "october",
+      "model": "ensemble",
+      "predicted_effective": 4.043103379185897,
+      "actual_effective": 3.57516678765748,
+      "error_effective": 0.46793659152841727,
+      "predicted_contract": 5.33683042202841,
+      "actual_contract": 7.044632936642781,
+      "error_contract": -1.7078025146143707
+    }
+  ],
+  "baselines": [
+    {
+      "year": 2021,
+      "method": "reconduire",
+      "kind": "contract",
+      "predicted": 3.1712187006387893,
+      "actual": 4.456558579613312,
+      "error": -1.285339878974523
+    },
+    {
+      "year": 2021,
+      "method": "moyenne récente",
+      "kind": "contract",
+      "predicted": 2.593656622232854,
+      "actual": 4.456558579613312,
+      "error": -1.8629019573804584
+    },
+    {
+      "year": 2021,
+      "method": "dérive",
+      "kind": "contract",
+      "predicted": 3.5230705256201644,
+      "actual": 4.456558579613312,
+      "error": -0.9334880539931478
+    },
+    {
+      "year": 2021,
+      "method": "reconduire",
+      "kind": "effective",
+      "predicted": 3.019338872641031,
+      "actual": 3.54344566547955,
+      "error": -0.524106792838519
+    },
+    {
+      "year": 2021,
+      "method": "moyenne récente",
+      "kind": "effective",
+      "predicted": 2.2080721413405224,
+      "actual": 3.54344566547955,
+      "error": -1.3353735241390274
+    },
+    {
+      "year": 2021,
+      "method": "dérive",
+      "kind": "effective",
+      "predicted": 3.541201985249204,
+      "actual": 3.54344566547955,
+      "error": -0.0022436802303458236
+    },
+    {
+      "year": 2021,
+      "method": "réglementaire seul",
+      "kind": "contract",
+      "predicted": 1.2937043501280288,
+      "actual": 4.456558579613312,
+      "error": -3.1628542294852835
+    },
+    {
+      "year": 2022,
+      "method": "reconduire",
+      "kind": "contract",
+      "predicted": 4.456558579613312,
+      "actual": 5.396243874711515,
+      "error": -0.9396852950982026
+    },
+    {
+      "year": 2022,
+      "method": "moyenne récente",
+      "kind": "contract",
+      "predicted": 3.256671131878612,
+      "actual": 5.396243874711515,
+      "error": -2.139572742832903
+    },
+    {
+      "year": 2022,
+      "method": "dérive",
+      "kind": "contract",
+      "predicted": 5.11957308925907,
+      "actual": 5.396243874711515,
+      "error": -0.2766707854524446
+    },
+    {
+      "year": 2022,
+      "method": "reconduire",
+      "kind": "effective",
+      "predicted": 3.54344566547955,
+      "actual": 4.586446551143397,
+      "error": -1.0430008856638473
+    },
+    {
+      "year": 2022,
+      "method": "moyenne récente",
+      "kind": "effective",
+      "predicted": 2.7306831473588105,
+      "actual": 4.586446551143397,
+      "error": -1.8557634037845867
+    },
+    {
+      "year": 2022,
+      "method": "dérive",
+      "kind": "effective",
+      "predicted": 4.066056671497838,
+      "actual": 4.586446551143397,
+      "error": -0.5203898796455588
+    },
+    {
+      "year": 2022,
+      "method": "réglementaire seul",
+      "kind": "contract",
+      "predicted": 2.130295350873858,
+      "actual": 5.396243874711515,
+      "error": -3.265948523837657
+    },
+    {
+      "year": 2023,
+      "method": "reconduire",
+      "kind": "contract",
+      "predicted": 5.396243874711515,
+      "actual": 2.288101634119122,
+      "error": 3.108142240592393
+    },
+    {
+      "year": 2023,
+      "method": "moyenne récente",
+      "kind": "contract",
+      "predicted": 4.3413403849878724,
+      "actual": 2.288101634119122,
+      "error": 2.0532387508687506
+    },
+    {
+      "year": 2023,
+      "method": "dérive",
+      "kind": "contract",
+      "predicted": 6.480913127820775,
+      "actual": 2.288101634119122,
+      "error": 4.192811493701654
+    },
+    {
+      "year": 2023,
+      "method": "reconduire",
+      "kind": "effective",
+      "predicted": 4.586446551143397,
+      "actual": 2.0193889435748735,
+      "error": 2.5670576075685236
+    },
+    {
+      "year": 2023,
+      "method": "moyenne récente",
+      "kind": "effective",
+      "predicted": 3.7164103630879928,
+      "actual": 2.0193889435748735,
+      "error": 1.6970214195131192
+    },
+    {
+      "year": 2023,
+      "method": "dérive",
+      "kind": "effective",
+      "predicted": 5.572173766872579,
+      "actual": 2.0193889435748735,
+      "error": 3.5527848232977055
+    },
+    {
+      "year": 2023,
+      "method": "réglementaire seul",
+      "kind": "contract",
+      "predicted": 2.9858183925225332,
+      "actual": 2.288101634119122,
+      "error": 0.6977167584034114
+    },
+    {
+      "year": 2024,
+      "method": "reconduire",
+      "kind": "contract",
+      "predicted": 2.288101634119122,
+      "actual": 3.389003066638896,
+      "error": -1.1009014325197741
+    },
+    {
+      "year": 2024,
+      "method": "moyenne récente",
+      "kind": "contract",
+      "predicted": 4.046968029481317,
+      "actual": 3.389003066638896,
+      "error": 0.6579649628424207
+    },
+    {
+      "year": 2024,
+      "method": "dérive",
+      "kind": "contract",
+      "predicted": 1.993729278612566,
+      "actual": 3.389003066638896,
+      "error": -1.39527378802633
+    },
+    {
+      "year": 2024,
+      "method": "reconduire",
+      "kind": "effective",
+      "predicted": 2.0193889435748735,
+      "actual": 1.7715594536235724,
+      "error": 0.24782948995130116
+    },
+    {
+      "year": 2024,
+      "method": "moyenne récente",
+      "kind": "effective",
+      "predicted": 3.38309372006594,
+      "actual": 1.7715594536235724,
+      "error": 1.6115342664423675
+    },
+    {
+      "year": 2024,
+      "method": "dérive",
+      "kind": "effective",
+      "predicted": 1.686072300552821,
+      "actual": 1.7715594536235724,
+      "error": -0.08548715307075128
+    },
+    {
+      "year": 2024,
+      "method": "réglementaire seul",
+      "kind": "contract",
+      "predicted": 3.0856467381205084,
+      "actual": 3.389003066638896,
+      "error": -0.30335632851838756
+    },
+    {
+      "year": 2025,
+      "method": "reconduire",
+      "kind": "contract",
+      "predicted": 3.389003066638896,
+      "actual": 7.044632936642781,
+      "error": -3.655629870003885
+    },
+    {
+      "year": 2025,
+      "method": "moyenne récente",
+      "kind": "contract",
+      "predicted": 3.6911161918231774,
+      "actual": 7.044632936642781,
+      "error": -3.3535167448196037
+    },
+    {
+      "year": 2025,
+      "method": "dérive",
+      "kind": "contract",
+      "predicted": 3.033151228980757,
+      "actual": 7.044632936642781,
+      "error": -4.011481707662024
+    },
+    {
+      "year": 2025,
+      "method": "reconduire",
+      "kind": "effective",
+      "predicted": 1.7715594536235724,
+      "actual": 3.57516678765748,
+      "error": -1.8036073340339076
+    },
+    {
+      "year": 2025,
+      "method": "moyenne récente",
+      "kind": "effective",
+      "predicted": 2.7924649827806145,
+      "actual": 3.57516678765748,
+      "error": -0.7827018048768655
+    },
+    {
+      "year": 2025,
+      "method": "dérive",
+      "kind": "effective",
+      "predicted": 1.1809307163382465,
+      "actual": 3.57516678765748,
+      "error": -2.3942360713192334
+    },
+    {
+      "year": 2025,
+      "method": "réglementaire seul",
+      "kind": "contract",
+      "predicted": 5.480288401860857,
+      "actual": 7.044632936642781,
+      "error": -1.5643445347819238
+    }
+  ],
+  "historical_growth": [
+    {
+      "year": 2019,
+      "contract": 2.1422361153837333,
+      "effective": 1.6292649039558516
+    },
+    {
+      "year": 2020,
+      "contract": 3.1712187006387893,
+      "effective": 3.019338872641031
+    },
+    {
+      "year": 2021,
+      "contract": 4.456558579613312,
+      "effective": 3.54344566547955
+    },
+    {
+      "year": 2022,
+      "contract": 5.396243874711515,
+      "effective": 4.586446551143397
+    },
+    {
+      "year": 2023,
+      "contract": 2.288101634119122,
+      "effective": 2.0193889435748735
+    },
+    {
+      "year": 2024,
+      "contract": 3.389003066638896,
+      "effective": 1.7715594536235724
+    },
+    {
+      "year": 2025,
+      "contract": 7.044632936642781,
+      "effective": 3.57516678765748
+    }
+  ],
+  "pair_counts": {
+    "2018": 88,
+    "2019": 159,
+    "2020": 331,
+    "2021": 355,
+    "2022": 352,
+    "2023": 416,
+    "2024": 698,
+    "2025": 780
+  },
+  "uncertainty": [
+    {
+      "kind": "effectif",
+      "écart-type : échantillonnage": 0.17808107918556954,
+      "écart-type : structure (grille)": 0.8704254965550439,
+      "écart-type : erreur de modèle (backtest)": 0.3061280579011539,
+      "p10 (modèle seul)": 4.772000889277517,
+      "médiane": 6.010983597683017,
+      "p90 (modèle seul)": 7.354085595074123,
+      "p10 (prédictive)": 4.744665632216269,
+      "p90 (prédictive)": 7.264995907644751,
+      "moyenne pondérée par le loyer": 6.718093262820285
+    },
+    {
+      "kind": "contractuel",
+      "écart-type : échantillonnage": 0.10486521607220811,
+      "écart-type : structure (grille)": 0.7275521277292057,
+      "écart-type : erreur de modèle (backtest)": 0.6300693808373785,
+      "p10 (modèle seul)": 4.009105373601227,
+      "médiane": 4.724434738981916,
+      "p90 (modèle seul)": 5.870606898715651,
+      "p10 (prédictive)": 3.6574250053585518,
+      "p90 (prédictive)": 6.221273440093332,
+      "moyenne pondérée par le loyer": 5.467629006607623
+    }
+  ],
+  "robustness": [
+    {
+      "setting": "réglages retenus",
+      "effectif 2026 (médiane)": 6.010983597683017,
+      "contractuel 2026 (médiane)": 4.724434738981916,
+      "MAE effectif 2023-2025": 0.30472542686577064,
+      "MAE contractuel 2023-2025": 0.57969090598416,
+      "écart effectif (points)": 0.0,
+      "écart contractuel (points)": 0.0
+    },
+    {
+      "setting": "k : dernière année seulement",
+      "effectif 2026 (médiane)": 5.916066776369188,
+      "contractuel 2026 (médiane)": 4.724434738981916,
+      "MAE effectif 2023-2025": 0.3049360318448861,
+      "MAE contractuel 2023-2025": 0.57969090598416,
+      "écart effectif (points)": -0.09491682131382895,
+      "écart contractuel (points)": 0.0
+    },
+    {
+      "setting": "k : trois dernières années",
+      "effectif 2026 (médiane)": 6.005363758252235,
+      "contractuel 2026 (médiane)": 4.724434738981916,
+      "MAE effectif 2023-2025": 0.31457641981364287,
+      "MAE contractuel 2023-2025": 0.57969090598416,
+      "écart effectif (points)": -0.0056198394307820365,
+      "écart contractuel (points)": 0.0
+    },
+    {
+      "setting": "k : tout l'historique",
+      "effectif 2026 (médiane)": 6.515662309550274,
+      "contractuel 2026 (médiane)": 4.724434738981916,
+      "MAE effectif 2023-2025": 0.3814810019997024,
+      "MAE contractuel 2023-2025": 0.57969090598416,
+      "écart effectif (points)": 0.5046787118672569,
+      "écart contractuel (points)": 0.0
+    },
+    {
+      "setting": "part de renouvellement : dernière année",
+      "effectif 2026 (médiane)": 6.005800801611372,
+      "contractuel 2026 (médiane)": 4.706817387408775,
+      "MAE effectif 2023-2025": 0.3046196600275497,
+      "MAE contractuel 2023-2025": 0.59376541567026,
+      "écart effectif (points)": -0.005182796071645512,
+      "écart contractuel (points)": -0.017617351573140816
+    },
+    {
+      "setting": "part de renouvellement : trois ans",
+      "effectif 2026 (médiane)": 6.040498783776627,
+      "contractuel 2026 (médiane)": 4.7629234582244955,
+      "MAE effectif 2023-2025": 0.2978119431265099,
+      "MAE contractuel 2023-2025": 0.5874797779625437,
+      "écart effectif (points)": 0.029515186093609813,
+      "écart contractuel (points)": 0.03848871924257935
+    },
+    {
+      "setting": "concessions : distribution du portefeuille",
+      "effectif 2026 (médiane)": 6.01825643369589,
+      "contractuel 2026 (médiane)": 4.724434738981916,
+      "MAE effectif 2023-2025": 0.30281169590572476,
+      "MAE contractuel 2023-2025": 0.57969090598416,
+      "écart effectif (points)": 0.007272836012872652,
+      "écart contractuel (points)": 0.0
+    },
+    {
+      "setting": "avis : au plus tôt de la fenêtre légale",
+      "effectif 2026 (médiane)": 6.1172052024387025,
+      "contractuel 2026 (médiane)": 5.269400247153515,
+      "MAE effectif 2023-2025": 0.30472542686577064,
+      "MAE contractuel 2023-2025": 0.57969090598416,
+      "écart effectif (points)": 0.1062216047556852,
+      "écart contractuel (points)": 0.5449655081715985
+    },
+    {
+      "setting": "avis : au plus tard de la fenêtre légale",
+      "effectif 2026 (médiane)": 5.978036351591287,
+      "contractuel 2026 (médiane)": 4.533506818363805,
+      "MAE effectif 2023-2025": 0.30472542686577064,
+      "MAE contractuel 2023-2025": 0.57969090598416,
+      "écart effectif (points)": -0.032947246091730165,
+      "écart contractuel (points)": -0.19092792061811092
+    }
+  ],
+  "policy_sensitivity": [
+    {
+      "policy": "a priori uniforme (headline)",
+      "effectif (médiane)": 6.010983597683017,
+      "contractuel (médiane)": 4.724434738981916
+    },
+    {
+      "policy": "loi seule (concessions uniformes)",
+      "effectif (médiane)": 5.852983776496257,
+      "contractuel (médiane)": 4.724434738981916
+    },
+    {
+      "policy": "concessions indexées seules (renouvellements uniformes)",
+      "effectif (médiane)": 6.6316804440968,
+      "contractuel (médiane)": 4.724434738981916
+    },
+    {
+      "policy": "règles observées seules (loi, concessions indexées)",
+      "effectif (médiane)": 6.6290519578749985,
+      "contractuel (médiane)": 4.723754875014565
+    }
+  ],
+  "sources": [
+    "https://newswire.ca/fr/news-releases/le-calcul-de-l-augmentation-des-loyers-en-2021-873582110.html",
+    "https://www.cmhc-schl.gc.ca/observer/2026/2026-mid-year-rental-market-update",
+    "https://www.cmhc-schl.gc.ca/professionals/housing-markets-data-and-research/market-reports/rental-market-reports-major-centres",
+    "https://www.ontario.ca/page/rent-increase-guideline",
+    "https://www.quebec.ca/nouvelles/actualites/details/le-calcul-de-lajustement-des-loyers-en-2026-68053",
+    "https://www.tal.gouv.qc.ca/fr/reconduction-du-bail-et-fixation-de-loyer/pourcentages-applicables-aux-criteres-de-fixation-de-loyer",
+    "https://www.tal.gouv.qc.ca/sites/default/files/COMMUNIQUE_FIXATION_2022_FR.pdf",
+    "https://www.tal.gouv.qc.ca/sites/default/files/COMMUNIQUE_FIXATION_2023_FR.pdf",
+    "https://www.tal.gouv.qc.ca/sites/default/files/COMMUNIQUE_FIXATION_2024_FR.pdf",
+    "https://www.tal.gouv.qc.ca/sites/default/files/COMMUNIQUE_FIXATION_2025_FR.pdf",
+    "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000401",
+    "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3410013001",
+    "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3410013301"
+  ],
+  "annualisation": "Exact elapsed days between lease starts / days_per_year, matching build_pairs",
+  "data_as_of": "2026-10-04",
+  "backtest_years": [
+    2023,
+    2024,
+    2025
+  ],
+  "live_vintage": "october"
+}

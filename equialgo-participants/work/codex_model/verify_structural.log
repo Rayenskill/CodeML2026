@@ -1,0 +1,9 @@
+tensor: passed
+quadratic: passed
+regional_merit: passed
+legitimate_context: passed
+region_correction_95: passed
+region_correction_90: passed
+region_correction_85: passed
+regional_standardized: passed
+All structural models passed; verified best and scored files preserved.

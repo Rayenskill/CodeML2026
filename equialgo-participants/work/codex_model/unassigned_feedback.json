@@ -1,0 +1,13 @@
+[
+  {
+    "batch": "upload_model_round5",
+    "user_report": "the last three did 94.85 the other 94.73",
+    "reported_accuracy_percent": [
+      94.85,
+      94.73
+    ],
+    "filenames_confirmed": false,
+    "macro_f1_percent": null,
+    "note": "Do not assign scores to filenames or change best-model registry without exact mapping. Earlier user text said 94.88; latest reply says 94.85."
+  }
+]

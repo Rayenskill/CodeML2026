@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "l2c-rebar"
+version = "0.1.0"
+description = "Compare structural plans with rebar shop drawings and report non-conformities"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pymupdf>=1.24",
+    "pydantic>=2.5",
+    "reportlab>=4.0",
+    "pillow>=10.0",
+    "numpy>=1.26",
+    "openpyxl>=3.1",
+    "rapidocr>=3.9",
+    "rapidocr-onnxruntime>=1.4,<2",
+]
+
+[project.optional-dependencies]
+ui = ["streamlit>=1.30", "pandas>=2.0"]
+dev = ["pytest>=8.0", "nbformat>=5.9", "nbclient>=0.9", "ipykernel>=6.0"]
+
+[project.scripts]
+l2c-rebar = "l2c_rebar.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+markers = ["slow: runs the local OCR engine"]

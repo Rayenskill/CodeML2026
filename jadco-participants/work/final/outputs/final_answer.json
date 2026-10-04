@@ -1,0 +1,62 @@
+{
+  "definition": "Croissance à unité constante du loyer effectif (net des concessions), médiane des paires, baux débutant en 2026 (renouvellements + relocations)",
+  "headline_effective_pct": 6.01,
+  "headline_band_pct": [
+    4.74,
+    7.26
+  ],
+  "headline_method": "modèle structurel (TAL daté par l'avis, IPC loyers de l'année précédente, concessions à deux marges) ; grille des inconnues de 2026 pondérée uniformément ; bande = grille + échantillonnage + erreur de modèle du backtest",
+  "effective_weighted_mean_pct": 6.72,
+  "contract_pct": 4.72,
+  "contract_band_pct": [
+    3.66,
+    6.22
+  ],
+  "renewal_anchor_law_pct": 3.78,
+  "attribution_points": {
+    "hausse contractuelle (médiane des paires)": 4.72,
+    "+ effet moyen des concessions sur les paires": 0.94,
+    "+ effet de forme de la médiane": 0.34,
+    "= hausse effective (médiane des paires)": 6.01
+  },
+  "scenarios_effective_pct": {
+    "bas (cliquet)": 4.57,
+    "coin indexé + pourcentage de base": 6.1,
+    "haut (ancienne méthode)": 7.57
+  },
+  "prior_sensitivity_effective_pct": {
+    "a priori uniforme (headline)": 6.01,
+    "loi seule (concessions uniformes)": 5.85,
+    "concessions indexées seules (renouvellements uniformes)": 6.63,
+    "règles observées seules (loi, concessions indexées)": 6.63
+  },
+  "backtest_bias_points": {
+    "effective": 0.3,
+    "contract": 0.15
+  },
+  "bias_adjusted_sensitivity_pct": {
+    "effective": 5.71,
+    "contract": 4.57
+  },
+  "robustness_effective_range_pct": [
+    5.92,
+    6.52
+  ],
+  "mc_precision_sd_points": 0.007,
+  "backtest_mae_points": {
+    "effective": 0.3,
+    "contract": 0.58
+  },
+  "presentation_diagnostics": {
+    "mix_year": 2023,
+    "naive_growth_pct": 10.85,
+    "fixed_panel_growth_pct": 0.78,
+    "fisher_growth_pct": 1.9,
+    "reconstruction_share_pct": 89.68,
+    "reconstruction_tolerance_dollars": 1.0,
+    "concession_penetration_pct": 85.39
+  },
+  "information_vintage": "october",
+  "data_as_of": "2026-10-04",
+  "cohort_units": 940
+}

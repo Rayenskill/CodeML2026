@@ -1,0 +1,35 @@
+[
+  {
+    "model": "sparse_spline",
+    "different_decisions_from_scored_ensemble": 18,
+    "rows": 4000,
+    "grants": 1600,
+    "saved_model_reproduces_file": true,
+    "identifier_and_label_invariance": true,
+    "single_applicant_scoring": true,
+    "file_sha256": "9908902ea0d404999334308a2c0b2505e0970dda96dadbf6b4bd06123b9f3695",
+    "reference_accuracy": null
+  },
+  {
+    "model": "monotonic",
+    "different_decisions_from_scored_ensemble": 38,
+    "rows": 4000,
+    "grants": 1600,
+    "saved_model_reproduces_file": true,
+    "identifier_and_label_invariance": true,
+    "single_applicant_scoring": true,
+    "file_sha256": "efe50c8ca824d20597f14f1dc3adc90944f94f5e26ba9192d7728f466ed42dcb",
+    "reference_accuracy": null
+  },
+  {
+    "model": "bagged_spline",
+    "different_decisions_from_scored_ensemble": 26,
+    "rows": 4000,
+    "grants": 1600,
+    "saved_model_reproduces_file": true,
+    "identifier_and_label_invariance": true,
+    "single_applicant_scoring": true,
+    "file_sha256": "83693e7ba9756147877c7a311cf7f555e084af0acd7d6fe409d22da1859b0449",
+    "reference_accuracy": null
+  }
+]

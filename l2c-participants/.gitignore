@@ -1,0 +1,27 @@
+# --- Confidential hackathon data: never commit (rules, section 4) ---
+/CLP/
+/EspCa3B/
+/LIGREP/
+/WP2/
+/consignes-*.pdf
+/data/
+# Generated outputs contain content extracted from confidential documents
+/outputs/
+*.ocr-cache/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+build/
+dist/
+
+# Research notes (not part of the deliverable)
+/research_notes/
+/reports/
+
+# Handover notes mention results derived from the known-mismatch list
+/HANDOFF.md

@@ -1,0 +1,184 @@
+{
+  "search": [
+    {
+      "config": {
+        "family": "linear",
+        "reduced": true,
+        "C": 0.1,
+        "link": "probit"
+      },
+      "development_cv": {
+        "accuracy": 0.888625,
+        "accuracy_wilson_95_interval": [
+          0.8815438488279077,
+          0.89533310856702
+        ],
+        "macro_f1": 0.8834675486468626,
+        "roc_auc": 0.9577748139897309,
+        "log_loss": 0.2580142720024844,
+        "brier": 0.08014962322412962
+      }
+    },
+    {
+      "config": {
+        "family": "linear",
+        "reduced": true,
+        "C": 3.0,
+        "link": "probit"
+      },
+      "development_cv": {
+        "accuracy": 0.88875,
+        "accuracy_wilson_95_interval": [
+          0.8816721702246312,
+          0.8954546671823244
+        ],
+        "macro_f1": 0.8836303081332151,
+        "roc_auc": 0.9577725992909707,
+        "log_loss": 0.25792233001337445,
+        "brier": 0.08005137932942888
+      }
+    },
+    {
+      "config": {
+        "family": "linear",
+        "reduced": true,
+        "C": 30.0,
+        "link": "probit"
+      },
+      "development_cv": {
+        "accuracy": 0.88875,
+        "accuracy_wilson_95_interval": [
+          0.8816721702246312,
+          0.8954546671823244
+        ],
+        "macro_f1": 0.8836303081332151,
+        "roc_auc": 0.9577727947055672,
+        "log_loss": 0.2579240465490389,
+        "brier": 0.08004884844907899
+      }
+    },
+    {
+      "config": {
+        "family": "sparse_spline",
+        "knots": 5,
+        "curve_hours": true,
+        "C": 0.1,
+        "link": "probit"
+      },
+      "development_cv": {
+        "accuracy": 0.888125,
+        "accuracy_wilson_95_interval": [
+          0.8810305906426693,
+          0.8948468467041465
+        ],
+        "macro_f1": 0.8828146564363861,
+        "roc_auc": 0.957848876121802,
+        "log_loss": 0.2573742504148378,
+        "brier": 0.07988024740674206
+      }
+    },
+    {
+      "config": {
+        "family": "sparse_spline",
+        "knots": 5,
+        "curve_hours": true,
+        "C": 3.0,
+        "link": "probit"
+      },
+      "development_cv": {
+        "accuracy": 0.888,
+        "accuracy_wilson_95_interval": [
+          0.8809022829267052,
+          0.8947252744080825
+        ],
+        "macro_f1": 0.8826640831812125,
+        "roc_auc": 0.9579102363051009,
+        "log_loss": 0.25736802987023133,
+        "brier": 0.07982884002766291
+      }
+    },
+    {
+      "config": {
+        "family": "sparse_spline",
+        "knots": 5,
+        "curve_hours": true,
+        "C": 30.0,
+        "link": "probit"
+      },
+      "development_cv": {
+        "accuracy": 0.887875,
+        "accuracy_wilson_95_interval": [
+          0.880773977934891,
+          0.8946036993878689
+        ],
+        "macro_f1": 0.882539686436943,
+        "roc_auc": 0.9578883498702936,
+        "log_loss": 0.2574508387578276,
+        "brier": 0.07984011483315429
+      }
+    },
+    {
+      "config": {
+        "family": "sparse_spline",
+        "knots": 5,
+        "curve_hours": true,
+        "C": 3.0
+      },
+      "development_cv": {
+        "accuracy": 0.8885,
+        "accuracy_wilson_95_interval": [
+          0.8814155301753746,
+          0.895211547207525
+        ],
+        "macro_f1": 0.8832917102114848,
+        "roc_auc": 0.9579392228035806,
+        "log_loss": 0.2566330633020466,
+        "brier": 0.07976151324216306
+      }
+    },
+    {
+      "config": {
+        "family": "linear",
+        "reduced": true,
+        "C": 3.0
+      },
+      "development_cv": {
+        "accuracy": 0.888875,
+        "accuracy_wilson_95_interval": [
+          0.8818004943695866,
+          0.8955762230493968
+        ],
+        "macro_f1": 0.8838055809231637,
+        "roc_auc": 0.9577628936993448,
+        "log_loss": 0.25689215997716713,
+        "brier": 0.07993391593992355
+      }
+    }
+  ],
+  "selected": {
+    "config": {
+      "family": "sparse_spline",
+      "knots": 5,
+      "curve_hours": true,
+      "C": 3.0,
+      "link": "probit"
+    },
+    "development_cv": {
+      "accuracy": 0.888,
+      "accuracy_wilson_95_interval": [
+        0.8809022829267052,
+        0.8947252744080825
+      ],
+      "macro_f1": 0.8826640831812125,
+      "roc_auc": 0.9579102363051009,
+      "log_loss": 0.25736802987023133,
+      "brier": 0.07982884002766291
+    }
+  },
+  "gradient_check_error": 1.0682606927721856e-07,
+  "training_sha256": "a3ce4e56b691daa163e3a455a88e76f85e3a1c8e201293fd3a87516b163c1f6d",
+  "reference_labels_used": false,
+  "historical_holdout_used": false,
+  "submissions": [],
+  "historical_log_loss_improved": false
+}

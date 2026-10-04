@@ -1,0 +1,20 @@
+{
+  "challengeId": "12",
+  "files": [
+    {
+      "path": "Image-defi-2.png",
+      "bytes": 2797882,
+      "sha256": "5930a727f68fcfc8e81ad0af92c03037cdd27339bf507f62fb24bc8c22a6d588"
+    },
+    {
+      "path": "NOVA_ETUDIANTS.zip",
+      "bytes": 579378,
+      "sha256": "5deb924eb8d136447270034943eb62cab3305974991b09244c71916604918d8f"
+    },
+    {
+      "path": "consignes.pdf",
+      "bytes": 48369,
+      "sha256": "280e4b65d93bb309bcfec5ff6075eb9f76f518c58872ca4e255e264782403902"
+    }
+  ]
+}

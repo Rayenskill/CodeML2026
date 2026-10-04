@@ -1,0 +1,17 @@
+{
+  "_doc": "Record lifecycle shared by the phone app (app.js) and the property-tested model (work/strat8/offline.py). LIFECYCLE.md draws it.",
+  "transitions": {
+    "CAPTURÉ": ["EN_ATTENTE_IA", "DOUBLON_SUSPECTÉ"],
+    "DOUBLON_SUSPECTÉ": ["EN_ATTENTE_IA", "À_RÉVISER", "VALIDÉ"],
+    "EN_ATTENTE_IA": ["TRAITÉ_IA", "ÉCHEC_TRAITEMENT", "RÉVISION_MANUELLE_REQUISE"],
+    "ÉCHEC_TRAITEMENT": ["EN_ATTENTE_IA", "RÉVISION_MANUELLE_REQUISE"],
+    "TRAITÉ_IA": ["À_RÉVISER", "VALIDÉ", "DOUBLON_SUSPECTÉ"],
+    "À_RÉVISER": ["VALIDÉ", "CAPTURÉ", "RÉVISION_MANUELLE_REQUISE"],
+    "RÉVISION_MANUELLE_REQUISE": ["VALIDÉ", "CAPTURÉ"],
+    "VALIDÉ": ["PATIENTE_LIÉE", "RÉVISION_MANUELLE_REQUISE"],
+    "PATIENTE_LIÉE": ["ENREGISTRÉ"],
+    "ENREGISTRÉ": ["SYNCHRONISÉ", "ÉCHEC_SYNCHRO"],
+    "ÉCHEC_SYNCHRO": ["ENREGISTRÉ"],
+    "SYNCHRONISÉ": []
+  }
+}

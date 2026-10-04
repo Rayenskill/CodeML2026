@@ -1,0 +1,497 @@
+{
+ "page": 52,
+ "patient": 7,
+ "page_type": 4,
+ "page_type_name": "accouchement",
+ "font": "ShadowsIntoLight",
+ "png": [
+  "dossiers_specimen_10_patientes-52__13GPlkmxU-.png",
+  "dossiers_specimen_10_patientes-52__1hTETTbfnm.png"
+ ],
+ "fields": [
+  {
+   "key": "cb.a_domicile",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    107.2,
+    638.5,
+    129.5,
+    660.9
+   ],
+   "label": "A domicile",
+   "group": "Patiente :"
+  },
+  {
+   "key": "cb.assiste_par_un_personnel_qualifie",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    593.3,
+    634.9,
+    615.6,
+    657.3
+   ],
+   "label": "Assisté par un personnel qualifié",
+   "group": "Patiente :"
+  },
+  {
+   "key": "cb.au_moment_de_l_accouchement",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    598.9,
+    1393.2,
+    621.3,
+    1415.6
+   ],
+   "label": "Au moment de l'accouchement",
+   "group": "Préciser l'indication :"
+  },
+  {
+   "key": "cb.autres",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    698.4,
+    1703.6,
+    720.8,
+    1726.0
+   ],
+   "label": "Autres",
+   "group": "Type de complications :"
+  },
+  {
+   "key": "cb.avec_episiotomie",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    694.2,
+    1136.9,
+    716.6,
+    1159.3
+   ],
+   "label": "Avec épisiotomie",
+   "group": "Mode de l'accouchement :"
+  },
+  {
+   "key": "cb.cesarienne_programmee",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    597.4,
+    1193.2,
+    619.8,
+    1215.6
+   ],
+   "label": "Césarienne : Programmée",
+   "group": "Mode de l'accouchement :"
+  },
+  {
+   "key": "cb.clinique_privee",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    592.0,
+    459.9,
+    614.3,
+    482.3
+   ],
+   "label": "Clinique privée",
+   "group": "Patiente :"
+  },
+  {
+   "key": "cb.deces_24_heures",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    1019.2,
+    1881.8,
+    1041.6,
+    1904.1
+   ],
+   "label": "Décès < 24 heures",
+   "group": "Etat du nouveau-né :"
+  },
+  {
+   "key": "cb.eclampsie",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    697.5,
+    1578.6,
+    719.9,
+    1601.0
+   ],
+   "label": "Eclampsie",
+   "group": "Type de complications :"
+  },
+  {
+   "key": "cb.en_milieu_surveille",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    105.3,
+    388.5,
+    127.7,
+    410.9
+   ],
+   "label": "En milieu surveillé",
+   "group": "Patiente :"
+  },
+  {
+   "key": "cb.forceps",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    693.5,
+    1048.0,
+    715.9,
+    1070.4
+   ],
+   "label": "Forceps",
+   "group": "Mode de l'accouchement :"
+  },
+  {
+   "key": "cb.hemorragie",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    697.8,
+    1620.2,
+    720.2,
+    1642.6
+   ],
+   "label": "Hémorragie",
+   "group": "Type de complications :"
+  },
+  {
+   "key": "cb.infection",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    698.1,
+    1661.9,
+    720.5,
+    1684.3
+   ],
+   "label": "Infection",
+   "group": "Type de complications :"
+  },
+  {
+   "key": "cb.maison_d_accouchement",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    591.3,
+    371.0,
+    613.7,
+    393.4
+   ],
+   "label": "Maison d'accouchement",
+   "group": "Patiente :"
+  },
+  {
+   "key": "cb.maternite",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    591.6,
+    415.4,
+    614.0,
+    437.8
+   ],
+   "label": "Maternité",
+   "group": "Patiente :"
+  },
+  {
+   "key": "cb.mort_ne",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    797.0,
+    1883.4,
+    819.4,
+    1905.8
+   ],
+   "label": "Mort-né",
+   "group": "Etat du nouveau-né :"
+  },
+  {
+   "key": "cb.pre_eclampsie",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    697.2,
+    1536.9,
+    719.6,
+    1559.3
+   ],
+   "label": "Pré-éclampsie",
+   "group": "Type de complications :"
+  },
+  {
+   "key": "cb.presence_de_complications",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    529.4,
+    1385.4,
+    551.8,
+    1407.8
+   ],
+   "label": "Présence de complications",
+   "group": "Préciser l'indication :"
+  },
+  {
+   "key": "cb.suites_de_couches",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    599.2,
+    1437.6,
+    621.6,
+    1460.0
+   ],
+   "label": "Suites de couches",
+   "group": "Préciser l'indication :"
+  },
+  {
+   "key": "cb.urgence",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    1083.5,
+    1189.6,
+    1105.9,
+    1212.0
+   ],
+   "label": "Urgence",
+   "group": "Mode de l'accouchement :"
+  },
+  {
+   "key": "cb.ventouse",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    693.9,
+    1092.5,
+    716.3,
+    1114.9
+   ],
+   "label": "Ventouse",
+   "group": "Mode de l'accouchement :"
+  },
+  {
+   "key": "cb.vivant",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    602.5,
+    1884.9,
+    624.9,
+    1907.2
+   ],
+   "label": "Vivant",
+   "group": "Etat du nouveau-né :"
+  },
+  {
+   "key": "cb.voie_basse_instrumentale",
+   "type": "checkbox",
+   "value": false,
+   "status": "CONNU",
+   "bbox": [
+    596.0,
+    1004.3,
+    618.4,
+    1026.7
+   ],
+   "label": "Voie basse instrumentale",
+   "group": "Mode de l'accouchement :"
+  },
+  {
+   "key": "cb.voie_basse_non_instrumentale",
+   "type": "checkbox",
+   "value": true,
+   "status": "CONNU",
+   "bbox": [
+    595.6,
+    954.3,
+    618.0,
+    976.7
+   ],
+   "label": "Voie basse non instrumentale",
+   "group": "Mode de l'accouchement :"
+  },
+  {
+   "key": "inline.age_gestationnel",
+   "type": "text",
+   "value": "39 SA",
+   "status": "CONNU",
+   "bbox": [
+    805.3,
+    2164.7,
+    870.7,
+    2214.4
+   ],
+   "label_bbox": [
+    604.7,
+    2176.4,
+    789.0,
+    2208.3
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.anomalie_a_preciser",
+   "type": "text",
+   "value": "Aucune",
+   "status": "CONNU",
+   "bbox": [
+    835.8,
+    2110.2,
+    905.3,
+    2158.3
+   ],
+   "label_bbox": [
+    604.3,
+    2120.6,
+    819.4,
+    2152.8
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.date_de_l_accouchement",
+   "type": "text",
+   "value": "28/08/2026",
+   "status": "CONNU",
+   "bbox": [
+    381.2,
+    812.6,
+    496.7,
+    866.2
+   ],
+   "label_bbox": [
+    108.6,
+    826.8,
+    365.0,
+    859.2
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.patiente",
+   "type": "text",
+   "value": null,
+   "status": "CONNU",
+   "bbox": [
+    220.7,
+    202.2,
+    382.6,
+    255.9
+   ],
+   "label_bbox": [
+    104.0,
+    216.8,
+    204.3,
+    248.1
+   ],
+   "raw": null,
+   "identifier": true
+  },
+  {
+   "key": "inline.perimetre_cranien_a_la_naissance",
+   "type": "text",
+   "value": "35 cm",
+   "status": "CONNU",
+   "bbox": [
+    962.4,
+    2049.1,
+    1028.1,
+    2096.1
+   ],
+   "label_bbox": [
+    603.8,
+    2058.6,
+    946.2,
+    2091.7
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.poids_a_la_naissance",
+   "type": "text",
+   "value": "3430 g",
+   "status": "CONNU",
+   "bbox": [
+    841.0,
+    1992.3,
+    914.3,
+    2039.8
+   ],
+   "label_bbox": [
+    603.4,
+    2003.9,
+    826.0,
+    2036.1
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.preciser_l_indication",
+   "type": "text",
+   "value": null,
+   "status": "NON_FOURNI",
+   "bbox": null,
+   "label_bbox": [
+    597.8,
+    1242.9,
+    807.2,
+    1275.0
+   ],
+   "raw": null
+  },
+  {
+   "key": "inline.sexe",
+   "type": "text",
+   "value": "F",
+   "status": "CONNU",
+   "bbox": [
+    687.8,
+    1937.3,
+    701.8,
+    1983.9
+   ],
+   "label_bbox": [
+    603.0,
+    1949.5,
+    672.4,
+    1980.5
+   ],
+   "raw": null
+  }
+ ]
+}
